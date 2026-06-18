@@ -1,0 +1,1641 @@
+{
+  "grounding": [
+    {
+      "id": "094dba6e-0b31-4e45-a453-3371ecb78dd7",
+      "scene_id": "0cac7676-8d6f-2d13-8f3a-d7bf7f03e721",
+      "source": "3rscan",
+      "text": "Look for a chair that is not medium-sized and not gray.",
+      "target_label": "chair",
+      "entities": null,
+      "metadata": {
+          "is_unique_label": false,
+          "raw_description": "Look for a chair that is not medium-sized and not gray."
+      },
+      "mask": null,
+      "viewpoint": null
+    },
+    {
+      "id": "d0d30991-5aa0-4ef3-8697-31efc92f8351",
+      "scene_id": "0cac7676-8d6f-2d13-8f3a-d7bf7f03e721",
+      "source": "3rscan",
+      "text": "Look for the tallest pillow with edges that are not rounded, which is next to the table.",
+      "target_label": "pillow",
+      "entities": [
+          {
+              "is_target": true,
+              "id": 20,
+              "label": [
+                  "pillow",
+                  "object",
+                  "thing"
+              ],
+              "indexes": [
+                  4
+              ],
+              "box": {
+                  "id": 20,
+                  "label": "pillow",
+                  "center": [
+                      0.7092156913639814,
+                      0.8002105261062757,
+                      -0.4399999976158142
+                  ],
+                  "half_dims": [
+                      0.09064078163225889,
+                      0.34449414895896724,
+                      0.32999998331069946
+                  ],
+                  "rotation": [
+                      0.0,
+                      0.0,
+                      -0.707763063256174,
+                      0.7064498894403178
+                  ]
+              },
+              "mask": null
+          },
+          {
+              "is_target": false,
+              "id": 27,
+              "label": [
+                  "table",
+                  "furniture",
+                  "object",
+                  "thing"
+              ],
+              "indexes": [
+                  16
+              ],
+              "box": {
+                  "id": 27,
+                  "label": "table",
+                  "center": [
+                      -0.8350340032511583,
+                      -0.33090516641335177,
+                      -0.6895514875650406
+                  ],
+                  "half_dims": [
+                      0.5898219100823484,
+                      1.3862383059048733,
+                      0.20044849812984467
+                  ],
+                  "rotation": [
+                      0.0,
+                      0.0,
+                      0.986116913619191,
+                      0.16605249975282296
+                  ]
+              },
+              "mask": null
+          }
+      ],
+      "metadata": {
+          "is_unique_label": false,
+          "raw_description": "Look for the tallest <pillow:20> with edges that are not rounded, which is next to the <table:27>."
+      },
+      "mask": null,
+      "viewpoint": null
+    },
+    {
+      "id": "d4d139d5-35d9-4f03-ab0b-c7cd422b144d",
+      "scene_id": "0cac7676-8d6f-2d13-8f3a-d7bf7f03e721",
+      "source": "3rscan",
+      "text": "Look for the dark gray storage that is not large and is far from a pillow. The pillow is the shortest one, positioned higher than the bed, to the right of the window, between the table and the nightstand, and in front of a cabinet.",
+      "target_label": "storage",
+      "entities": [
+          {
+              "is_target": true,
+              "id": 43,
+              "label": [
+                  "box",
+                  "container",
+                  "storage",
+                  "object",
+                  "thing"
+              ],
+              "indexes": [
+                  5
+              ],
+              "box": {
+                  "id": 43,
+                  "label": "box",
+                  "center": [
+                      -0.31594918051562315,
+                      -2.739950983530534,
+                      0.306367002427578
+                  ],
+                  "half_dims": [
+                      0.08416462771992346,
+                      0.20369716575073096,
+                      0.0963670089840889
+                  ],
+                  "rotation": [
+                      0.0,
+                      0.0,
+                      0.0822901768630922,
+                      0.9966084119612081
+                  ]
+              },
+              "mask": null
+          },
+          {
+              "is_target": false,
+              "id": 2,
+              "label": [
+                  "bed",
+                  "furniture",
+                  "object",
+                  "thing"
+              ],
+              "indexes": [
+                  26
+              ],
+              "box": {
+                  "id": 2,
+                  "label": "bed",
+                  "center": [
+                      0.9246957010528771,
+                      -0.14122361161559005,
+                      -1.0045700371265411
+                  ],
+                  "half_dims": [
+                      1.0422901800968691,
+                      0.7621599584656937,
+                      0.3345700204372406
+                  ],
+                  "rotation": [
+                      0.0,
+                      0.0,
+                      0.710253418992883,
+                      0.7039460780549319
+                  ]
+              },
+              "mask": null
+          },
+          {
+              "is_target": false,
+              "id": 15,
+              "label": [
+                  "pillow",
+                  "object",
+                  "thing"
+              ],
+              "indexes": [
+                  15,
+                  17
+              ],
+              "box": {
+                  "id": 15,
+                  "label": "pillow",
+                  "center": [
+                      1.2611413035714791,
+                      0.5469034989767362,
+                      -0.4616895318031311
+                  ],
+                  "half_dims": [
+                      0.311598229780689,
+                      0.371798414978703,
+                      0.31168949604034424
+                  ],
+                  "rotation": [
+                      0.0,
+                      0.0,
+                      0.99910283585641,
+                      0.04235001043305187
+                  ]
+              },
+              "mask": null
+          },
+          {
+              "is_target": false,
+              "id": 17,
+              "label": [
+                  "window",
+                  "thing"
+              ],
+              "indexes": [
+                  32
+              ],
+              "box": {
+                  "id": 17,
+                  "label": "window",
+                  "center": [
+                      -0.9970748158701853,
+                      -1.0699643812830129,
+                      0.320000022649765
+                  ],
+                  "half_dims": [
+                      0.08845087986928751,
+                      0.5403438150720857,
+                      0.6500000357627869
+                  ],
+                  "rotation": [
+                      0.0,
+                      0.0,
+                      0.006442435889411267,
+                      0.999979247294568
+                  ]
+              },
+              "mask": null
+          },
+          {
+              "is_target": false,
+              "id": 27,
+              "label": [
+                  "table",
+                  "furniture",
+                  "object",
+                  "thing"
+              ],
+              "indexes": [
+                  35
+              ],
+              "box": {
+                  "id": 27,
+                  "label": "table",
+                  "center": [
+                      -0.8350340032511583,
+                      -0.33090516641335177,
+                      -0.6895514875650406
+                  ],
+                  "half_dims": [
+                      0.5898219100823484,
+                      1.3862383059048733,
+                      0.20044849812984467
+                  ],
+                  "rotation": [
+                      0.0,
+                      0.0,
+                      0.986116913619191,
+                      0.16605249975282296
+                  ]
+              },
+              "mask": null
+          },
+          {
+              "is_target": false,
+              "id": 28,
+              "label": [
+                  "nightstand",
+                  "furniture",
+                  "storage",
+                  "object",
+                  "thing"
+              ],
+              "indexes": [
+                  38
+              ],
+              "box": {
+                  "id": 28,
+                  "label": "nightstand",
+                  "center": [
+                      1.8686136103393653,
+                      0.7824262113674514,
+                      -0.7762549817562103
+                  ],
+                  "half_dims": [
+                      0.12899873351042823,
+                      0.18008227987829414,
+                      0.06625500321388245
+                  ],
+                  "rotation": [
+                      0.0,
+                      0.0,
+                      -0.7110894862873116,
+                      0.7031015164907892
+                  ]
+              },
+              "mask": null
+          },
+          {
+              "is_target": false,
+              "id": 29,
+              "label": [
+                  "cabinet",
+                  "storage",
+                  "object",
+                  "thing"
+              ],
+              "indexes": [
+                  44
+              ],
+              "box": {
+                  "id": 29,
+                  "label": "cabinet",
+                  "center": [
+                      0.9287835937970251,
+                      0.7006213239989392,
+                      0.47913698852062225
+                  ],
+                  "half_dims": [
+                      0.20699732620094446,
+                      0.7291225992870759,
+                      0.3346329927444458
+                  ],
+                  "rotation": [
+                      0.0,
+                      0.0,
+                      0.7069695198802538,
+                      0.7072440158532862
+                  ]
+              },
+              "mask": null
+          }
+      ],
+      "metadata": {
+          "is_unique_label": false,
+          "raw_description": "Look for the dark gray <storage:43> that is not large and is far from a <pillow:15>. The <pillow:15> is the shortest one, positioned higher than the <bed:2>, to the right of the <window:17>, between the <table:27> and the <nightstand:28>, and in front of a <cabinet:29>."
+      },
+      "mask": null,
+      "viewpoint": null
+    },
+    {
+      "id": "4e90dd48-1df6-4a50-b599-fd1e87352969",
+      "scene_id": "0cac7676-8d6f-2d13-8f3a-d7bf7f03e721",
+      "source": "3rscan",
+      "text": "The picture is on a furniture.",
+      "target_label": "picture",
+      "entities": [
+          {
+              "is_target": true,
+              "id": 24,
+              "label": [
+                  "picture",
+                  "object",
+                  "thing"
+              ],
+              "indexes": [
+                  1
+              ],
+              "box": {
+                  "id": 24,
+                  "label": "picture",
+                  "center": [
+                      -0.26999998558312654,
+                      0.8499999940395355,
+                      -0.3999999761581421
+                  ],
+                  "half_dims": [
+                      0.25999998580664396,
+                      0.08000001311302185,
+                      0.3700000047683716
+                  ],
+                  "rotation": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                  ]
+              },
+              "mask": null
+          },
+          {
+              "is_target": true,
+              "id": 25,
+              "label": [
+                  "picture",
+                  "object",
+                  "thing"
+              ],
+              "indexes": [
+                  1
+              ],
+              "box": {
+                  "id": 25,
+                  "label": "picture",
+                  "center": [
+                      -0.7219848519105725,
+                      0.8495979222063896,
+                      -0.4273949861526489
+                  ],
+                  "half_dims": [
+                      0.08990054244396559,
+                      0.27168789402280685,
+                      0.3373950123786926
+                  ],
+                  "rotation": [
+                      0.0,
+                      0.0,
+                      0.6909182043850276,
+                      0.7229329393860605
+                  ]
+              },
+              "mask": null
+          },
+          {
+              "is_target": false,
+              "id": 27,
+              "label": [
+                  "table",
+                  "furniture",
+                  "object",
+                  "thing"
+              ],
+              "indexes": [
+                  5
+              ],
+              "box": {
+                  "id": 27,
+                  "label": "table",
+                  "center": [
+                      -0.8350340032511583,
+                      -0.33090516641335177,
+                      -0.6895514875650406
+                  ],
+                  "half_dims": [
+                      0.5898219100823484,
+                      1.3862383059048733,
+                      0.20044849812984467
+                  ],
+                  "rotation": [
+                      0.0,
+                      0.0,
+                      0.986116913619191,
+                      0.16605249975282296
+                  ]
+              },
+              "mask": null
+          }
+      ],
+      "metadata": {
+          "is_unique_label": false,
+          "raw_description": "The <picture:24,25> is on a <furniture:27>."
+      },
+      "mask": null,
+      "viewpoint": null
+    },
+    {
+      "id": "1aa26c05-5c05-4780-b362-8b8ac41b2822",
+      "scene_id": "0cac7676-8d6f-2d13-8f3a-d7bf7f03e721",
+      "source": "3rscan",
+      "text": "When you are in the corner of the bedroom, look for the furniture that is not square in shape, is next to the blanket, and is not to the left of the lamp.",
+      "target_label": "furniture",
+      "entities": [
+          {
+              "is_target": true,
+              "id": 2,
+              "label": [
+                  "bed",
+                  "furniture",
+                  "object",
+                  "thing"
+              ],
+              "indexes": [
+                  12
+              ],
+              "box": {
+                  "id": 2,
+                  "label": "bed",
+                  "center": [
+                      0.9246957010528771,
+                      -0.14122361161559005,
+                      -1.0045700371265411
+                  ],
+                  "half_dims": [
+                      1.0422901800968691,
+                      0.7621599584656937,
+                      0.3345700204372406
+                  ],
+                  "rotation": [
+                      0.0,
+                      0.0,
+                      0.710253418992883,
+                      0.7039460780549319
+                  ]
+              },
+              "mask": null
+          },
+          {
+              "is_target": true,
+              "id": 27,
+              "label": [
+                  "table",
+                  "furniture",
+                  "object",
+                  "thing"
+              ],
+              "indexes": [
+                  12
+              ],
+              "box": {
+                  "id": 27,
+                  "label": "table",
+                  "center": [
+                      -0.8350340032511583,
+                      -0.33090516641335177,
+                      -0.6895514875650406
+                  ],
+                  "half_dims": [
+                      0.5898219100823484,
+                      1.3862383059048733,
+                      0.20044849812984467
+                  ],
+                  "rotation": [
+                      0.0,
+                      0.0,
+                      0.986116913619191,
+                      0.16605249975282296
+                  ]
+              },
+              "mask": null
+          },
+          {
+              "is_target": true,
+              "id": 28,
+              "label": [
+                  "nightstand",
+                  "furniture",
+                  "storage",
+                  "object",
+                  "thing"
+              ],
+              "indexes": [
+                  12
+              ],
+              "box": {
+                  "id": 28,
+                  "label": "nightstand",
+                  "center": [
+                      1.8686136103393653,
+                      0.7824262113674514,
+                      -0.7762549817562103
+                  ],
+                  "half_dims": [
+                      0.12899873351042823,
+                      0.18008227987829414,
+                      0.06625500321388245
+                  ],
+                  "rotation": [
+                      0.0,
+                      0.0,
+                      -0.7110894862873116,
+                      0.7031015164907892
+                  ]
+              },
+              "mask": null
+          },
+          {
+              "is_target": false,
+              "id": 18,
+              "label": [
+                  "lamp",
+                  "device",
+                  "object",
+                  "thing"
+              ],
+              "indexes": [
+                  32
+              ],
+              "box": {
+                  "id": 18,
+                  "label": "lamp",
+                  "center": [
+                      1.2063552385540972,
+                      -0.7892767402761109,
+                      0.6492964923381805
+                  ],
+                  "half_dims": [
+                      0.28910867968605236,
+                      0.3059092926197995,
+                      0.31024348735809326
+                  ],
+                  "rotation": [
+                      0.0,
+                      0.0,
+                      0.9411696872891495,
+                      0.33793434233301073
+                  ]
+              },
+              "mask": null
+          },
+          {
+              "is_target": false,
+              "id": 3,
+              "label": [
+                  "blanket",
+                  "object",
+                  "thing"
+              ],
+              "indexes": [
+                  23
+              ],
+              "box": {
+                  "id": 3,
+                  "label": "blanket",
+                  "center": [
+                      0.8889984056986635,
+                      -0.1877298845689535,
+                      -0.792589008808136
+                  ],
+                  "half_dims": [
+                      0.4083324002869945,
+                      0.7274820107072766,
+                      0.1608089804649353
+                  ],
+                  "rotation": [
+                      0.0,
+                      0.0,
+                      -0.6841956697028811,
+                      0.729298488658674
+                  ]
+              },
+              "mask": null
+          },
+          {
+              "is_target": false,
+              "id": 102,
+              "label": [
+                  "bedroom",
+                  "room"
+              ],
+              "indexes": [
+                  8
+              ],
+              "box": {
+                  "id": 102,
+                  "label": "bedroom",
+                  "center": [
+                      1.1068299770355225,
+                      -1.1499999046325682,
+                      -0.045572519302368164
+                  ],
+                  "half_dims": [
+                      2.125,
+                      2.0,
+                      1.2667725086212158
+                  ],
+                  "rotation": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                  ]
+              },
+              "mask": null
+          }
+      ],
+      "metadata": {
+          "is_unique_label": false,
+          "raw_description": "When you are in the corner of the <bedroom:102>, look for the <furniture:2,27,28> that is not square in shape, is next to the <blanket:3>, and is not to the left of the <lamp:18>."
+      },
+      "mask": null,
+      "viewpoint": null
+    },
+    {
+      "id": "13dde774-ac9d-45c0-bc5f-8806b251adb6",
+      "scene_id": "scene0025_00",
+      "source": "scannet",
+      "text": "Look for a cup that is not made of plastic.",
+      "target_label": "cup",
+      "entities": null,
+      "metadata": {
+          "is_unique_label": false,
+          "raw_description": "Look for a cup that is not made of plastic."
+      },
+      "mask": null,
+      "viewpoint": null
+    },
+    {
+      "id": "40364ae5-6710-4413-a66b-44c15da1afcb",
+      "scene_id": "scene0025_00",
+      "source": "scannet",
+      "text": "Look for the trash can that is not for holding bottles and is not smooth.",
+      "target_label": "trash can",
+      "entities": [
+          {
+              "is_target": true,
+              "id": 20,
+              "label": [
+                  "trash can",
+                  "container",
+                  "object",
+                  "thing"
+              ],
+              "indexes": [
+                  3,
+                  4
+              ],
+              "box": {
+                  "id": 20,
+                  "label": "trash can",
+                  "center": [
+                      3.0629933871526616,
+                      2.716374925488651,
+                      0.2349507063627243
+                  ],
+                  "half_dims": [
+                      0.12621345205870999,
+                      0.13787130083180965,
+                      0.18858280777931213
+                  ],
+                  "rotation": [
+                      0.0,
+                      0.0,
+                      0.9965855874448363,
+                      0.0825661365042032
+                  ]
+              },
+              "mask": null
+          }
+      ],
+      "metadata": {
+          "is_unique_label": false,
+          "raw_description": "Look for the <trash can:20> that is not for holding bottles and is not smooth."
+      },
+      "mask": null,
+      "viewpoint": null
+    },
+    {
+      "id": "bb850884-5ee8-4572-b4ec-1e42dd915d1d",
+      "scene_id": "scene0025_00",
+      "source": "scannet",
+      "text": "When you are in the center of the office, look for the modern storage near the floor that is not to the left of a chair.",
+      "target_label": "storage",
+      "entities": [
+          {
+              "is_target": true,
+              "id": 11,
+              "label": [
+                  "shelf",
+                  "storage",
+                  "furniture",
+                  "object",
+                  "thing"
+              ],
+              "indexes": [
+                  13
+              ],
+              "box": {
+                  "id": 11,
+                  "label": "shelf",
+                  "center": [
+                      0.44182193620125865,
+                      3.6573947400727924,
+                      1.184373976662755
+                  ],
+                  "half_dims": [
+                      0.4457527094151985,
+                      0.2985562497518019,
+                      1.1646931171417236
+                  ],
+                  "rotation": [
+                      0.0,
+                      0.0,
+                      -0.9250906529600696,
+                      0.3797463413989818
+                  ]
+              },
+              "mask": null
+          },
+          {
+              "is_target": false,
+              "id": 13,
+              "label": [
+                  "office chair",
+                  "chair",
+                  "furniture",
+                  "object",
+                  "thing"
+              ],
+              "indexes": [
+                  25
+              ],
+              "box": {
+                  "id": 13,
+                  "label": "office chair",
+                  "center": [
+                      2.852746360143187,
+                      1.420089624147695,
+                      0.5046143643558025
+                  ],
+                  "half_dims": [
+                      0.33472899953742247,
+                      0.4269421392589143,
+                      0.46570777893066406
+                  ],
+                  "rotation": [
+                      0.0,
+                      0.0,
+                      0.07177359673486626,
+                      0.9974209496555307
+                  ]
+              },
+              "mask": null
+          },
+          {
+              "is_target": false,
+              "id": 14,
+              "label": [
+                  "floor",
+                  "thing"
+              ],
+              "indexes": [
+                  16
+              ],
+              "box": {
+                  "id": 14,
+                  "label": "floor",
+                  "center": [
+                      2.8026058473016957,
+                      3.0252806672686794,
+                      0.0684232305502519
+                  ],
+                  "half_dims": [
+                      1.6027704999784356,
+                      2.282956151539873,
+                      0.06978171318769455
+                  ],
+                  "rotation": [
+                      0.0,
+                      0.0,
+                      -0.9232666939564816,
+                      0.38415961764697293
+                  ]
+              },
+              "mask": null
+          },
+          {
+              "is_target": false,
+              "id": 44,
+              "label": [
+                  "office",
+                  "room"
+              ],
+              "indexes": [
+                  8
+              ],
+              "box": {
+                  "id": 44,
+                  "label": "office",
+                  "center": [
+                      2.8423003494739536,
+                      2.8426266137510545,
+                      1.2831321842968464
+                  ],
+                  "half_dims": [
+                      2.722361107568208,
+                      1.714733944377378,
+                      1.25
+                  ],
+                  "rotation": [
+                      0.0,
+                      0.0,
+                      -0.3826834323650898,
+                      0.9238795325112867
+                  ]
+              },
+              "mask": null
+          }
+      ],
+      "metadata": {
+          "is_unique_label": false,
+          "raw_description": "When you are in the center of the <office:44>, look for the modern <storage:11> near the <floor:14> that is not to the left of a <chair:13>."
+      },
+      "mask": null,
+      "viewpoint": null
+    },
+    {
+      "id": "ffde60b8-e323-4eed-84b4-de0de02259e8",
+      "scene_id": "scene0025_00",
+      "source": "scannet",
+      "text": "Near the floor but not in front of it, look for the thing used for making phone calls. When you are near a modern plastic object, which is used for storing items, situated near the appliance and lower than a window, you will find the thing close by.",
+      "target_label": "thing",
+      "entities": [
+          {
+              "is_target": true,
+              "id": 33,
+              "label": [
+                  "headphones",
+                  "device",
+                  "object",
+                  "thing"
+              ],
+              "indexes": [
+                  12,
+                  45
+              ],
+              "box": {
+                  "id": 33,
+                  "label": "headphones",
+                  "center": [
+                      3.204742116651201,
+                      2.20077575505781,
+                      0.7759591042995453
+                  ],
+                  "half_dims": [
+                      0.043618513068108836,
+                      0.06912769440060626,
+                      0.035873740911483765
+                  ],
+                  "rotation": [
+                      0.0,
+                      0.0,
+                      -0.9998058397800312,
+                      0.019704891315267314
+                  ]
+              },
+              "mask": null
+          },
+          {
+              "is_target": true,
+              "id": 28,
+              "label": [
+                  "telephone",
+                  "device",
+                  "object",
+                  "thing"
+              ],
+              "indexes": [
+                  12,
+                  45
+              ],
+              "box": {
+                  "id": 28,
+                  "label": "telephone",
+                  "center": [
+                      4.164675656529322,
+                      2.042053644696936,
+                      0.9623799622058868
+                  ],
+                  "half_dims": [
+                      0.11214024530220551,
+                      0.14147730938262287,
+                      0.06516250967979431
+                  ],
+                  "rotation": [
+                      0.0,
+                      0.0,
+                      0.04228239213251707,
+                      0.9991056997713266
+                  ]
+              },
+              "mask": null
+          },
+          {
+              "is_target": false,
+              "id": 39,
+              "label": [
+                  "fan",
+                  "device",
+                  "appliance",
+                  "object",
+                  "thing"
+              ],
+              "indexes": [
+                  35
+              ],
+              "box": {
+                  "id": 39,
+                  "label": "fan",
+                  "center": [
+                      1.2174675646944788,
+                      3.529451844583165,
+                      0.5157617013901472
+                  ],
+                  "half_dims": [
+                      0.16182804069862658,
+                      0.21857677053298274,
+                      0.5035480260848999
+                  ],
+                  "rotation": [
+                      0.0,
+                      0.0,
+                      0.5512205738772343,
+                      0.83435956214
+                  ]
+              },
+              "mask": null
+          },
+          {
+              "is_target": false,
+              "id": 40,
+              "label": [
+                  "object"
+              ],
+              "indexes": [
+                  25
+              ],
+              "box": {
+                  "id": 40,
+                  "label": "object",
+                  "center": [
+                      0.9423289305179016,
+                      3.258613085732931,
+                      0.43754641711711884
+                  ],
+                  "half_dims": [
+                      0.14481050420114508,
+                      0.21426932370744645,
+                      0.0815904289484024
+                  ],
+                  "rotation": [
+                      0.0,
+                      0.0,
+                      0.8932013470510762,
+                      0.44965692880922314
+                  ]
+              },
+              "mask": null
+          },
+          {
+              "is_target": false,
+              "id": 14,
+              "label": [
+                  "floor",
+                  "thing"
+              ],
+              "indexes": [
+                  2
+              ],
+              "box": {
+                  "id": 14,
+                  "label": "floor",
+                  "center": [
+                      2.8026058473016957,
+                      3.0252806672686794,
+                      0.0684232305502519
+                  ],
+                  "half_dims": [
+                      1.6027704999784356,
+                      2.282956151539873,
+                      0.06978171318769455
+                  ],
+                  "rotation": [
+                      0.0,
+                      0.0,
+                      -0.9232666939564816,
+                      0.38415961764697293
+                  ]
+              },
+              "mask": null
+          },
+          {
+              "is_target": false,
+              "id": 21,
+              "label": [
+                  "window",
+                  "thing"
+              ],
+              "indexes": [
+                  40
+              ],
+              "box": {
+                  "id": 21,
+                  "label": "window",
+                  "center": [
+                      5.756631394089978,
+                      1.865136998659739,
+                      1.2361438274383545
+                  ],
+                  "half_dims": [
+                      0.1246150724990489,
+                      0.4357120135602733,
+                      0.361954927444458
+                  ],
+                  "rotation": [
+                      0.0,
+                      0.0,
+                      -0.3207484095938571,
+                      0.9471644301508643
+                  ]
+              },
+              "mask": null
+          }
+      ],
+      "metadata": {
+          "is_unique_label": false,
+          "raw_description": "Near the <floor:14> but not in front of it, look for the <thing:33,28> used for making phone calls. When you are near a modern plastic <object:40>, which is used for storing items, situated near the <appliance:39> and lower than a <window:21>, you will find the <thing:33,28> close by."
+      },
+      "mask": null,
+      "viewpoint": null
+    },
+    {
+      "id": "0ab488de-2b0c-409f-9f6f-ecce06bbf8fe",
+      "scene_id": "scene0025_00",
+      "source": "scannet",
+      "text": "Look for the couch that is near a wall.",
+      "target_label": "couch",
+      "entities": [
+          {
+              "is_target": true,
+              "id": 3,
+              "label": [
+                  "couch",
+                  "furniture",
+                  "object",
+                  "thing"
+              ],
+              "indexes": [
+                  3
+              ],
+              "box": {
+                  "id": 3,
+                  "label": "couch",
+                  "center": [
+                      1.0656387974410109,
+                      3.060194962422594,
+                      0.34288433380424976
+                  ],
+                  "half_dims": [
+                      0.758039386621525,
+                      0.4126739454178149,
+                      0.32087621092796326
+                  ],
+                  "rotation": [
+                      0.0,
+                      0.0,
+                      0.9179614496190468,
+                      0.3966696068686108
+                  ]
+              },
+              "mask": null
+          },
+          {
+              "is_target": true,
+              "id": 4,
+              "label": [
+                  "couch",
+                  "furniture",
+                  "object",
+                  "thing"
+              ],
+              "indexes": [
+                  3
+              ],
+              "box": {
+                  "id": 4,
+                  "label": "couch",
+                  "center": [
+                      2.5446800104043166,
+                      5.005380026678232,
+                      0.3567054010927677
+                  ],
+                  "half_dims": [
+                      0.6977431284716951,
+                      0.38488992037774017,
+                      0.32054394483566284
+                  ],
+                  "rotation": [
+                      0.0,
+                      0.0,
+                      -0.3970346592033314,
+                      0.9178036170070886
+                  ]
+              },
+              "mask": null
+          },
+          {
+              "is_target": false,
+              "id": 5,
+              "label": [
+                  "wall",
+                  "thing"
+              ],
+              "indexes": [
+                  8
+              ],
+              "box": {
+                  "id": 5,
+                  "label": "wall",
+                  "center": [
+                      1.4131617400974572,
+                      4.974823182545521,
+                      1.2747025601565838
+                  ],
+                  "half_dims": [
+                      0.10931138135151758,
+                      1.280269682279853,
+                      1.2431544065475464
+                  ],
+                  "rotation": [
+                      0.0,
+                      0.0,
+                      0.9213921042036498,
+                      0.388634262914595
+                  ]
+              },
+              "mask": null
+          }
+      ],
+      "metadata": {
+          "is_unique_label": false,
+          "raw_description": "Look for the <couch:3,4> that is near a <wall:5>."
+      },
+      "mask": null,
+      "viewpoint": null
+    },
+    {
+      "id": "71006cfa-ef05-412c-8cd7-54abf6ae087a",
+      "scene_id": "scene0607_00",
+      "source": "scannet",
+      "text": "The cup you are looking for is not in the kitchen.",
+      "target_label": "cup",
+      "entities": null,
+      "metadata": {
+          "is_unique_label": false,
+          "raw_description": "The cup you are looking for is not in the kitchen."
+      },
+      "mask": null,
+      "viewpoint": null
+    },
+    {
+      "id": "43a827a5-93ed-4d2e-8838-435c70ee77a7",
+      "scene_id": "scene0607_00",
+      "source": "scannet",
+      "text": "Look for a small, black appliance.",
+      "target_label": "appliance",
+      "entities": null,
+      "metadata": {
+          "is_unique_label": false,
+          "raw_description": "Look for a small, black appliance."
+      },
+      "mask": null,
+      "viewpoint": null
+    },
+    {
+      "id": "38cc0347-99ae-4904-a89c-b84bbfac9689",
+      "scene_id": "scene0607_00",
+      "source": "scannet",
+      "text": "Look for the large, white wall that is neither stone nor wood, and is not near the cabinet.",
+      "target_label": "wall",
+      "entities": [
+          {
+              "is_target": true,
+              "id": 12,
+              "label": [
+                  "wall",
+                  "thing"
+              ],
+              "indexes": [
+                  5
+              ],
+              "box": {
+                  "id": 12,
+                  "label": "wall",
+                  "center": [
+                      1.5358304204608473,
+                      6.50427156039701,
+                      0.8016272857785225
+                  ],
+                  "half_dims": [
+                      0.049992216998609396,
+                      0.19921528404942218,
+                      0.7043139338493347
+                  ],
+                  "rotation": [
+                      0.0,
+                      0.0,
+                      0.9866274009314983,
+                      0.16299193762624156
+                  ]
+              },
+              "mask": null
+          },
+          {
+              "is_target": false,
+              "id": 22,
+              "label": [
+                  "cabinet",
+                  "storage",
+                  "object",
+                  "thing"
+              ],
+              "indexes": [
+                  17
+              ],
+              "box": {
+                  "id": 22,
+                  "label": "cabinet",
+                  "center": [
+                      0.4465993158215823,
+                      3.021699511044054,
+                      0.897076427936554
+                  ],
+                  "half_dims": [
+                      0.2786699411706757,
+                      0.53485548264565,
+                      0.6850009560585022
+                  ],
+                  "rotation": [
+                      0.0,
+                      0.0,
+                      0.20683092017511184,
+                      0.978376701715406
+                  ]
+              },
+              "mask": null
+          }
+      ],
+      "metadata": {
+          "is_unique_label": false,
+          "raw_description": "Look for the large, white <wall:12> that is neither stone nor wood, and is not near the <cabinet:22>."
+      },
+      "mask": null,
+      "viewpoint": null
+    },
+    {
+      "id": "590e63f8-39a2-4eef-8cb1-8930f72fe49d",
+      "scene_id": "scene0607_00",
+      "source": "scannet",
+      "text": "Look for the shortest device made of plastic that is closed. This device does not support a furniture that is near the faucet.",
+      "target_label": "device",
+      "entities": [
+          {
+              "is_target": true,
+              "id": 21,
+              "label": [
+                  "soap dispenser",
+                  "device",
+                  "appliance",
+                  "object",
+                  "thing"
+              ],
+              "indexes": [
+                  4,
+                  12
+              ],
+              "box": {
+                  "id": 21,
+                  "label": "soap dispenser",
+                  "center": [
+                      0.453227134656654,
+                      5.304226400158399,
+                      1.3274561166763306
+                  ],
+                  "half_dims": [
+                      0.05274580074656251,
+                      0.10073629573974939,
+                      0.15516996383666992
+                  ],
+                  "rotation": [
+                      0.0,
+                      0.0,
+                      -0.12007781648517915,
+                      0.9927644826383303
+                  ]
+              },
+              "mask": null
+          },
+          {
+              "is_target": false,
+              "id": 2,
+              "label": [
+                  "kitchen counter",
+                  "furniture",
+                  "object",
+                  "thing"
+              ],
+              "indexes": [
+                  17
+              ],
+              "box": {
+                  "id": 2,
+                  "label": "kitchen counter",
+                  "center": [
+                      0.516480455471287,
+                      4.362448150908042,
+                      0.9749895930290222
+                  ],
+                  "half_dims": [
+                      0.36051400487182295,
+                      1.2058072741293222,
+                      0.2243238091468811
+                  ],
+                  "rotation": [
+                      0.0,
+                      0.0,
+                      0.9942166327409205,
+                      0.10739314308327925
+                  ]
+              },
+              "mask": null
+          },
+          {
+              "is_target": false,
+              "id": 18,
+              "label": [
+                  "faucet",
+                  "device",
+                  "object",
+                  "thing"
+              ],
+              "indexes": [
+                  22
+              ],
+              "box": {
+                  "id": 18,
+                  "label": "faucet",
+                  "center": [
+                      0.4062650023239419,
+                      4.8606472969474925,
+                      1.1603276431560516
+                  ],
+                  "half_dims": [
+                      0.05825294120861137,
+                      0.05437711265868102,
+                      0.195053368806839
+                  ],
+                  "rotation": [
+                      0.0,
+                      0.0,
+                      -0.2814757642572501,
+                      0.9595683373974973
+                  ]
+              },
+              "mask": null
+          }
+      ],
+      "metadata": {
+          "is_unique_label": false,
+          "raw_description": "Look for the shortest <device:21> made of plastic that is closed. This <device:21> does not support a <furniture:2> that is near the <faucet:18>."
+      },
+      "mask": null,
+      "viewpoint": null
+    },
+    {
+      "id": "bca39c2b-5016-4a42-9c79-41f7e25ee094",
+      "scene_id": "scene0607_00",
+      "source": "scannet",
+      "text": "From the center of the kitchen, the devices you are looking for are not to the left of a cup.",
+      "target_label": "device",
+      "entities": [
+          {
+              "is_target": true,
+              "id": 24,
+              "label": [
+                  "oven",
+                  "appliance",
+                  "device",
+                  "object",
+                  "thing"
+              ],
+              "indexes": [
+                  7
+              ],
+              "box": {
+                  "id": 24,
+                  "label": "oven",
+                  "center": [
+                      0.5859083757058772,
+                      2.8356763491824495,
+                      1.366214096546173
+                  ],
+                  "half_dims": [
+                      0.03880241352191511,
+                      0.36927829841429555,
+                      0.21980613470077515
+                  ],
+                  "rotation": [
+                      0.0,
+                      0.0,
+                      -0.11968039408887916,
+                      0.9928124713513276
+                  ]
+              },
+              "mask": null
+          },
+          {
+              "is_target": true,
+              "id": 3,
+              "label": [
+                  "refrigerator",
+                  "appliance",
+                  "device",
+                  "object",
+                  "thing"
+              ],
+              "indexes": [
+                  7
+              ],
+              "box": {
+                  "id": 3,
+                  "label": "refrigerator",
+                  "center": [
+                      1.1564898364406622,
+                      5.791699163790035,
+                      0.8091344386339188
+                  ],
+                  "half_dims": [
+                      0.2904267637528835,
+                      0.6520708640743721,
+                      0.736887514591217
+                  ],
+                  "rotation": [
+                      0.0,
+                      0.0,
+                      -0.4321228527128824,
+                      0.9018147482511475
+                  ]
+              },
+              "mask": null
+          },
+          {
+              "is_target": true,
+              "id": 23,
+              "label": [
+                  "oven",
+                  "appliance",
+                  "device",
+                  "object",
+                  "thing"
+              ],
+              "indexes": [
+                  7
+              ],
+              "box": {
+                  "id": 23,
+                  "label": "oven",
+                  "center": [
+                      0.5591079790319397,
+                      2.881060529238076,
+                      0.8914337158203125
+                  ],
+                  "half_dims": [
+                      0.0356744721668818,
+                      0.30451963515397845,
+                      0.25403106212615967
+                  ],
+                  "rotation": [
+                      0.0,
+                      0.0,
+                      0.9943122787455895,
+                      0.10650395455452957
+                  ]
+              },
+              "mask": null
+          },
+          {
+              "is_target": false,
+              "id": 27,
+              "label": [
+                  "kitchen",
+                  "room"
+              ],
+              "indexes": [
+                  5
+              ],
+              "box": {
+                  "id": 27,
+                  "label": "kitchen",
+                  "center": [
+                      2.4270499870984166,
+                      4.617006986586684,
+                      1.3284325301647186
+                  ],
+                  "half_dims": [
+                      2.1561199989052784,
+                      2.923319302378048,
+                      1.25
+                  ],
+                  "rotation": [
+                      0.0,
+                      0.0,
+                      -0.13052619222005157,
+                      0.9914448613738104
+                  ]
+              },
+              "mask": null
+          },
+          {
+              "is_target": false,
+              "id": 14,
+              "label": [
+                  "cup",
+                  "object",
+                  "thing"
+              ],
+              "indexes": [
+                  19
+              ],
+              "box": {
+                  "id": 14,
+                  "label": "cup",
+                  "center": [
+                      0.5471297363078661,
+                      5.472480767788996,
+                      1.0045298635959625
+                  ],
+                  "half_dims": [
+                      0.05274436000668252,
+                      0.07431321429318069,
+                      0.04249879717826843
+                  ],
+                  "rotation": [
+                      0.0,
+                      0.0,
+                      0.27864319239828217,
+                      0.9603946955966042
+                  ]
+              },
+              "mask": null
+          }
+      ],
+      "metadata": {
+          "is_unique_label": false,
+          "raw_description": "From the center of the <kitchen:27>, the <devices:24,3,23> you are looking for are not to the left of a <cup:14>."
+      },
+      "mask": null,
+      "viewpoint": null
+    }
+  ]
+}

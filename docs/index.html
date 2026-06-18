@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Scaling Diverse Language Generation for 3D Visual Grounding">
+  <meta name="keywords" content="ViGiL3D++, 3D, 3DVG, visual grounding, language, dataset, evaluation, VLM">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>ViGiL3D++: Scaling Diverse Language Generation for 3D Visual Grounding</title>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FVDFJ40CY5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-FVDFJ40CY5');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <!-- <link rel="icon" href="./static/images/favicon.svg"> -->
+
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+    }
+  }
+  </script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+</head>
+
+<body>
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-widescreen">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-2 publication-title">
+              ViGiL3D++: Scaling Diverse Language Generation for 3D Visual Grounding
+            </h1>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a href="https://atwang16.github.io/">Austin T. Wang</a><sup>1</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://www.sfu.ca/~dya78/">Dongchen Yang</a><sup>1</sup>,
+              </span>
+              <span class="author-block">
+                  <a href="https://angelxuanchang.github.io/">Angel X. Chang</a><sup>1,2</sup>,
+              </span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>Simon Fraser University,</span>
+              <span class="author-block"><sup>2</sup>Alberta Machine Intelligence Institute (Amii)</span>
+            </div>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block" style="color:#a771ac">Preprint</span>
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- PDF Link. -->
+                <!-- <span class="link-block">
+                  <a href=""
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span> -->
+                <span class="link-block">
+                  <a href="https://arxiv.org" class="external-link button is-normal is-rounded is-dark">  <!-- replace with real link -->
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+                <!-- Code Link. -->
+                <span class="link-block">
+                  <a href="https://github.com/3dlg-hcvc/vigil3dpp" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+                <!-- Dataset Link. -->
+                <span class="link-block">
+                <a href="https://huggingface.co/datasets/3dlg-hcvc/vigil3dpp" class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Data</span>
+                  </a>
+                </span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-widescreen">
+      <div class="columns is-centered">
+
+        <!-- Abstract. --> 
+        <div class="column is-full-width is-large">
+          <div class="column has-text-centered">
+
+            <div class="content has-text-justified mt-4">
+              <p>
+                Developing robust models for 3D visual grounding (3DVG), the localization of entities in a 3D scene described in natural language, is important for enabling agents to correspond language descriptions with objects in the physical world. However, the lack of diverse descriptions at scale prevents models from generalizing beyond simple linguistic patterns. Recent such attempts lack diversity in the constraint types and language used to ground objects. Captioning methods cannot precisely contrast objects, which is important for visual grounding. We therefore propose ViGiL3D++, a scalable, scene-agnostic method that generates diverse visual grounding prompts by combining constraint sampling on scene graphs with the language generation of LLMs. We demonstrate its value through higher diversity over existing scaled datasets and as a training set, with improved model performance over several 3DVG benchmarks.
+              </p>
+            </div>
+
+            <div class="center-container" style="margin-left: -10px">
+              <!-- <h2 class="title is-3">Abstract</h2> -->
+              <img src="./static/images/teaser.png" style="width: 80%;">
+            </div>
+
+          </div>
+        </div>
+        <!--/ Abstract. -->
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-widescreen">
+      <!-- Dataset Pipeline. -->
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <div class="content has-text-justified">
+            <div class="center-container">
+              <h3 class="title is-3">Dataset Pipeline</h3>
+            </div>
+            <div class="center-container">
+              <img src="./static/images/pipeline.png" style="width: 90%;">
+            </div>
+            <p>
+              We design a fully automated pipeline that generates a diverse set of visual grounding prompts that describe target objects in the scene given a point cloud and RGB images of a scene. Our method improves on existing solutions by 1) enforcing consistency in attribute assignment through cross-referencing, 2) enabling diverse attribute and relationship types through more comprehensive scene graph extraction and constraint sampling, and 3) improving linguistic variation using in-context rephrasing.
+            </p>
+            <p>
+              To achieve this, we frame our problem as constraint synthesis: for a scene and a set of target objects, we sample a set of constraints whoes only satisfying solution is the set of target objects. We break this down into several steps. First, we extract a cross-referencing scene graph by parsing attributes using a VLM from multi-view images of each object and relationships through geometric analysis. Secondly, for each prompt, we sample targets conditioned on the prompt type (zero-, single-, or multi-target) and label. Constraints are iteratively sampled from the scene graph until the targets are appropriately constrained. Lastly, we use an LLM to rephrase the templated constraints into a natural language description.
+            </p>
+            <p>
+              <strong>Scene Graph Extraction.</strong> To construct a pool of attributes and relationships for constraint sampling, we extract a scene graph from the input scene using a VLM and geometric methods. Initializing objects from a segmentation of the scene, we use a VLM to parse attributes of objects from multi-view images, <i>cross-referencing</i> objects for similarity to ensure that objects with identical appearance are assigned the same attributes. We then use layout estimation to predict room boundaries and extract relationships within each room between objects through geometric analysis augmented by VLMs.
+            </p>
+          </div>
+        </div> 
+      </div>  
+    </div> 
+    <!--/ Dataset Pipeline. -->
+  </section>
+
+  <section class="section">
+    <div class="container is-max-widescreen">
+      <!-- Dataset. -->
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <div class="content has-text-justified">
+            <div class="center-container">
+              <h3 class="title is-3">Dataset</h3>
+            </div>
+            <div class="center-container">
+              <img src="./static/images/dataset_statistics.png" style="width: 50%;" alt="dataset statistics">
+              <img src="./static/images/dataset_analysis_radar.png" style="width: 40%;" alt="dataset diversity">
+            </div>
+            <p>
+              We showcase the capabilities of ViGiL3D++ for training by generating a large 3DVG dataset from a range of scene datasets (ScanNet, 3RScan, and MultiScan), including zero-, single-, and multi-target descriptions. We find that our dataset has comparable or higher linguistic diversity than existing scaled 3DVG datasets, representing a wider range of attribute and relationship types and linguistic patterns. Furthermore, ViGiL3D++ generates descriptions with higher validity rates than baselines (using images, captions, or scene graphs) as well as existing methods such as 3D-GRAND (Yang et al., 2024).
+            </p>
+          </div>
+        </div> 
+      </div>  
+    </div> 
+    <!--/ Dataset. -->
+  </section>
+
+  <!-- Dataset Viewer -->
+  <section class="section" id="interactive-examples">
+    <div class="container is-max-widescreen">
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <div class="content has-text-justified">
+            <div class="center-container">
+              <h3 class="title is-3">Interactive examples</h3>
+            </div>
+            <p>
+              Explore sample ViGiL3D++ grounding descriptions on downsampled point clouds from the validation split.
+            </p>
+            <div class="field is-grouped is-grouped-multiline vigil3d-viewer-toolbar">
+              <div class="control is-expanded">
+                <label class="label is-small" for="vigil3d-scene-select">Scene</label>
+                <div class="select is-fullwidth">
+                  <select id="vigil3d-scene-select" aria-label="Select scene"></select>
+                </div>
+              </div>
+            </div>
+            <div class="vigil3d-viewer-frame">
+              <div id="vigil3d-viewer-canvas-wrap" class="vigil3d-viewer-canvas-wrap" aria-label="3D scene view"></div>
+              <div id="vigil3d-viewer-loading" class="vigil3d-viewer-loading" hidden></div>
+            </div>
+            <div class="vigil3d-viewer-legend mt-2">Green boxes mark target objects for the current description. Drag to orbit, scroll to zoom.</div>
+            <div class="vigil3d-desc-row mt-3">
+              <button type="button" class="button is-light vigil3d-nav-btn" id="vigil3d-btn-prev" aria-label="Previous description">
+                <span class="icon"><i class="fas fa-chevron-left"></i></span>
+              </button>
+              <div class="vigil3d-desc-body">
+                <p class="is-size-7 has-text-grey mb-1" id="vigil3d-desc-index"></p>
+                <p class="vigil3d-desc-text" id="vigil3d-desc-text"></p>
+              </div>
+              <button type="button" class="button is-light vigil3d-nav-btn" id="vigil3d-btn-next" aria-label="Next description">
+                <span class="icon"><i class="fas fa-chevron-right"></i></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="./static/js/viewer.js"></script>
+  </section>
+  <!--/ Dataset Viewer -->
+
+  <section class="section">
+    <div class="container is-max-widescreen">
+      <!-- Model. -->
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <div class="content has-text-justified">
+            <div class="center-container">
+              <h3 class="title is-3">V3DM: A Model for Visual Grounding</h3>
+            </div>
+            <div class="center-container">
+              <img src="./static/images/model.png">
+            </div>
+            <p>
+              We design V3DM with a similar architecture to 3D-VisTA (Zhu et al., 2023), making minor improvements to enable variable-target predictions and use dense annotations in an auxiliary loss. 
+            </p>
+            <ul>
+              <li><strong>Open-vocabulary.</strong> We generalize the PointNet++ features to support arbitrary learned semantic embeddings.</li>
+              <li><strong>Dense alignment.</strong> We use the dense annotations from ViGiL3D++ to construct losses against predictictions of the anchor objects and dense alignments of text tokens to objects.</li>
+              <li><strong>Zero- and multi-target predictions.</strong> We extend the model to handle prompts with no target objects or multiple target objects.</li>
+            </ul>
+          </div>
+        </div> 
+      </div>  
+    </div> 
+    <!--/ Model. -->
+  </section>
+
+  <section class="section">
+    <!-- Results. -->
+    <div class="container is-max-widescreen">
+      <div class="center-container">
+        <h3 class="title is-3">Results</h3>
+        <div class="content has-text-justified">
+          <p>
+            Training with ViGiL3D++ improves performance relative to several state-of-the-art works with similar model architectures over benchmarks including ScanRefer, Multi3DRefer, and ViGiL3D (Wang et al., 2025), which includes more diverse language prompts.
+          </p>
+        </div>
+        <img src="./static/images/results.png" style="width: 80%;">
+      </div>
+    </div>
+    <!--/ Results. -->
+  </section>
+
+  <!-- Model Prediction Viewer -->
+  <section class="section" id="interactive-model-predictions">
+    <div class="container is-max-widescreen">
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <div class="content has-text-justified">
+            <div class="center-container">
+              <h3 class="title is-3">Model Predictions Viewer</h3>
+            </div>
+            <p>
+              Compare model predictions on the same scene descriptions.
+            </p>
+            <div class="field is-grouped is-grouped-multiline vigil3d-viewer-toolbar">
+              <div class="control is-expanded">
+                <label class="label is-small" for="vigil3d-pred-scene-select">Scene</label>
+                <div class="select is-fullwidth">
+                  <select id="vigil3d-pred-scene-select" aria-label="Select scene"></select>
+                </div>
+              </div>
+            </div>
+            <div class="vigil3d-pred-layout">
+              <div class="vigil3d-pred-main">
+                <div class="vigil3d-viewer-frame">
+                  <div id="vigil3d-pred-viewer-canvas-wrap" class="vigil3d-viewer-canvas-wrap" aria-label="3D scene view with predictions"></div>
+                  <div id="vigil3d-pred-viewer-loading" class="vigil3d-viewer-loading" hidden></div>
+                </div>
+                <div class="vigil3d-pred-legend mt-2">Ground truth: green | Prediction: blue (correct) / red (incorrect)</div>
+                <div class="vigil3d-desc-row mt-3">
+                  <button type="button" class="button is-light vigil3d-nav-btn" id="vigil3d-pred-btn-prev" aria-label="Previous description">
+                    <span class="icon"><i class="fas fa-chevron-left"></i></span>
+                  </button>
+                  <div class="vigil3d-desc-body">
+                    <p class="is-size-7 has-text-grey mb-1" id="vigil3d-pred-desc-index"></p>
+                    <p class="vigil3d-desc-text" id="vigil3d-pred-desc-text"></p>
+                  </div>
+                  <button type="button" class="button is-light vigil3d-nav-btn" id="vigil3d-pred-btn-next" aria-label="Next description">
+                    <span class="icon"><i class="fas fa-chevron-right"></i></span>
+                  </button>
+                </div>
+              </div>
+              <aside class="vigil3d-pred-sidebar" aria-label="Model predictions">
+                <p class="is-size-7 has-text-grey mb-2">Toggle one model at a time</p>
+                <button type="button" class="button is-light is-fullwidth vigil3d-model-option" data-model="ZSVG3D">ZSVG3D</button>
+                <button type="button" class="button is-light is-fullwidth vigil3d-model-option" data-model="3D-VisTA">3D-VisTA</button>
+                <button type="button" class="button is-light is-fullwidth vigil3d-model-option" data-model="3D-GRAND">3D-GRAND</button>
+                <button type="button" class="button is-light is-fullwidth vigil3d-model-option" data-model="GPS">GPS</button>
+                <button type="button" class="button is-light is-fullwidth vigil3d-model-option" data-model="V3DM">V3DM (ours)</button>
+              </aside>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="./static/js/viewer_predictions.js"></script>
+  </section>
+  <!--/ Model Prediction Viewer -->
+
+  <section class="section">
+    <!-- Insights. -->
+    <div class="container is-max-widescreen">
+      <div class="center-container">
+        <h3 class="title is-3">Insights</h3>
+        <div class="content has-text-justified">
+          <p>
+            <ul>
+              <li>It is important to consider the diversity of language prompts that are being scaled up for training.</li>
+              <li>VLMs are useful in spatial reasoning tasks, but conditioning them for diverse generation of spatial attributes and relationships and phrasing is difficult.</li>
+              <li>Extracting a scene graph representation in 3D enforces spatial consistency that is lacking in direct image-based methods.</li>
+              <li>Encoding human spatial relationships in scene graphs for constraint sampling is challenging, given the context required (e.g. object A being far from object B can depend on other objects in the scene and the scene size).</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Insights. -->
+  </section>
+
+  <section class="section" id="BibTeX">
+    <div class="container is-max-widescreen content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>
+      @article{wang2026scaling,
+          author={Wang, Austin T. and Yang, Dongchen and Chang, Angel X.},
+          title={Scaling Diverse Language Generation for 3D Visual Grounding},
+          journal={arXiv preprint},
+          year={2026},
+          eprint={},  <!-- UPDATE ME -->
+          archivePrefix={arXiv},
+          primaryClass={cs.AI},
+          doi={},  <!-- UPDATE ME -->
+      }
+      </code></pre>
+    </div>
+  </section>
+
+  <section class="section" id="BibTeX">
+    <div class="container is-max-widescreen content">
+      <h2 class="title">Acknowledgements</h2>
+      <p>
+        This work was funded in part by a CIFAR AI Chair and the NSERC Discovery Grant, and enabled by support from the Digital Research Alliance of Canada and a CFI/BCKDF JELF. We thank Hou In Ivan Tam, Hou In Derek Pun, Denys Iliash, Weikun Peng, Tristan Engst, and Xingguang Yan for the helpful discussions and feedback.
+      </p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+        <a class="icon-link" href="">
+          <i class="fas fa-file-pdf"></i>
+        </a>
+        <a class="icon-link" href="" class="external-link" disabled>
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              This website is licensed under a <a rel="license"
+                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+                Commons Attribution-ShareAlike 4.0 International License</a>.
+              The template is borrowed from <a href="https://nerfies.github.io/">Nerfies</a>.
+              Please check out their great work if you find it helpful as well.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

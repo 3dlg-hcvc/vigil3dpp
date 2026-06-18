@@ -1,0 +1,216 @@
+{
+  "grounding": [
+    {
+      "id": "e1bc6bea-cbe9-4c5f-858a-a5c0f1180fc3",
+      "scene_id": "scene0149_00",
+      "text": "A black bag is in front of a white trash can on the floor.",
+      "entities": null,
+      "metadata": {
+          "pair_id": 9.0,
+          "is_valid": 1,
+          "num_attributes_target": 1,
+          "num_attributes_anchors": 1.0,
+          "num_attribute_type_color": 1.0,
+          "num_attribute_type_size": 0.0,
+          "num_attribute_type_shape": 0.0,
+          "num_attribute_type_number": 0.0,
+          "num_attribute_type_material": 0.0,
+          "num_attribute_type_texture": 0.0,
+          "num_attribute_type_function": 0.0,
+          "num_attribute_type_style": 0.0,
+          "num_attribute_type_text_label": 0.0,
+          "num_attribute_type_state": 0.0,
+          "num_relationships_target": 1,
+          "num_relationships_anchors": 1.0,
+          "num_relationship_type_near": 1.0,
+          "num_relationship_type_far": 0.0,
+          "num_relationship_type_viewpoint_dependent": 1.0,
+          "num_relationship_type_vertical": 1.0,
+          "num_relationship_type_contain": 0.0,
+          "num_relationship_type_arrangement": 0.0,
+          "num_relationship_type_ordinal": 0.0,
+          "num_relationship_type_comparison": 0.0,
+          "num_coreferences": 0.0,
+          "num_target_not_first_np": 0.0,
+          "granularity": "fine-grained",
+          "num_anchor_type_single": 1.0,
+          "num_anchor_type_multiple": 0.0,
+          "num_anchor_type_non_object": 0.0,
+          "num_anchor_type_viewpoint": 0.0,
+          "num_negation": 0.0
+      },
+      "mask": null,
+      "target_label": "bag",
+      "source": "scannet"
+    },
+    {
+      "id": "a19ce18f-c839-45d7-9d58-b62dbdd00bbe",
+      "scene_id": "scene0251_00",
+      "text": "If facing the wall with the poster with the words, \"SIGGRAPH\", get all of the tables on your right.",
+      "entities": [
+          {
+              "is_target": true,
+              "id": 17,
+              "label": "table",
+              "indexes": null,
+              "box": {
+                  "id": 17,
+                  "label": "table",
+                  "center": [
+                      5.9063215255737305,
+                      4.15709114074707,
+                      0.8033535480499268
+                  ],
+                  "half_dims": [
+                      0.7064459323883057,
+                      0.634245753288269,
+                      0.43011951446533203
+                  ],
+                  "rotation": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                  ]
+              },
+              "mask": null
+          }
+      ],
+      "metadata": {
+          "pair_id": 0.0,
+          "is_valid": 1,
+          "num_attributes_target": 0,
+          "num_attributes_anchors": 1.0,
+          "num_attribute_type_color": 0.0,
+          "num_attribute_type_size": 0.0,
+          "num_attribute_type_shape": 0.0,
+          "num_attribute_type_number": 0.0,
+          "num_attribute_type_material": 0.0,
+          "num_attribute_type_texture": 0.0,
+          "num_attribute_type_function": 0.0,
+          "num_attribute_type_style": 0.0,
+          "num_attribute_type_text_label": 1.0,
+          "num_attribute_type_state": 0.0,
+          "num_relationships_target": 1,
+          "num_relationships_anchors": 2.0,
+          "num_relationship_type_near": 0.0,
+          "num_relationship_type_far": 0.0,
+          "num_relationship_type_viewpoint_dependent": 1.0,
+          "num_relationship_type_vertical": 0.0,
+          "num_relationship_type_contain": 1.0,
+          "num_relationship_type_arrangement": 0.0,
+          "num_relationship_type_ordinal": 0.0,
+          "num_relationship_type_comparison": 0.0,
+          "num_coreferences": 0.0,
+          "num_target_not_first_np": 1.0,
+          "granularity": "fine-grained",
+          "num_anchor_type_single": 1.0,
+          "num_anchor_type_multiple": 0.0,
+          "num_anchor_type_non_object": 0.0,
+          "num_anchor_type_viewpoint": 1.0,
+          "num_negation": 0.0
+      },
+      "mask": null,
+      "target_label": "table",
+      "source": "scannet"
+    },
+    {
+      "id": "5c98b0a6-adb5-41a6-9850-7684c901f1ea",
+      "scene_id": "scene0222_00",
+      "text": "These are all the long, soft places in the room.",
+      "entities": [
+          {
+              "is_target": true,
+              "id": 0,
+              "label": "bed",
+              "indexes": null,
+              "box": {
+                  "id": 0,
+                  "label": "bed",
+                  "center": [
+                      2.49474025, 
+                      2.77040052, 
+                      0.56268501
+                  ],
+                  "half_dims": [
+                      0.52697462,
+                      1.10676467, 
+                      0.51118755
+                  ],
+                  "rotation": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                  ]
+              },
+              "mask": null
+          },
+          {
+              "is_target": true,
+              "id": 5,
+              "label": "bed",
+              "indexes": null,
+              "box": {
+                  "id": 5,
+                  "label": "bed",
+                  "center": [
+                      5.962420463562012,
+                      0.6595754027366638,
+                      0.5308195352554321
+                  ],
+                  "half_dims": [
+                      1.151334524154663,
+                      0.584499180316925,
+                      0.47541606426239014
+                  ],
+                  "rotation": [
+                      0.0,
+                      0.0,
+                      0.0,
+                      1.0
+                  ]
+              },
+              "mask": null
+          }
+      ],
+      "metadata": {
+          "pair_id": 0.0,
+          "is_valid": 1,
+          "num_attributes_target": 2,
+          "num_attributes_anchors": 0.0,
+          "num_attribute_type_color": 0.0,
+          "num_attribute_type_size": 1.0,
+          "num_attribute_type_shape": 0.0,
+          "num_attribute_type_number": 0.0,
+          "num_attribute_type_material": 0.0,
+          "num_attribute_type_texture": 1.0,
+          "num_attribute_type_function": 0.0,
+          "num_attribute_type_style": 0.0,
+          "num_attribute_type_text_label": 0.0,
+          "num_attribute_type_state": 0.0,
+          "num_relationships_target": 1,
+          "num_relationships_anchors": 0.0,
+          "num_relationship_type_near": 0.0,
+          "num_relationship_type_far": 0.0,
+          "num_relationship_type_viewpoint_dependent": 0.0,
+          "num_relationship_type_vertical": 0.0,
+          "num_relationship_type_contain": 1.0,
+          "num_relationship_type_arrangement": 0.0,
+          "num_relationship_type_ordinal": 0.0,
+          "num_relationship_type_comparison": 0.0,
+          "num_coreferences": 0.0,
+          "num_target_not_first_np": 0.0,
+          "granularity": "generic",
+          "num_anchor_type_single": 0.0,
+          "num_anchor_type_multiple": 0.0,
+          "num_anchor_type_non_object": 1.0,
+          "num_anchor_type_viewpoint": 0.0,
+          "num_negation": 0.0
+      },
+      "mask": null,
+      "target_label": "bed",
+      "source": "scannet"
+    }
+  ]
+}

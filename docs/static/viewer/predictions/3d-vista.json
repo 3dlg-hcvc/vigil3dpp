@@ -1,0 +1,4543 @@
+[
+    {
+        "id": "4455c9d2-5190-4ccb-9b9b-ee698246dfa2",
+        "scene_id": "scene0086_00",
+        "description": "The sink is the one that sticks out farther than the other.",
+        "prediction": [
+            [
+                [
+                    2.9202070236206055,
+                    3.059138298034668,
+                    0.7102729678153992
+                ],
+                [
+                    0.6915724277496338,
+                    0.6856458187103271,
+                    0.49873605370521545
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "355f0489-ae5d-4262-bcdb-94028d563701",
+        "scene_id": "scene0086_00",
+        "description": "The toilet is the one in the smaller stall.",
+        "prediction": [
+            [
+                [
+                    4.78122615814209,
+                    5.953032493591309,
+                    0.4588949680328369
+                ],
+                [
+                    0.6642117500305176,
+                    0.645970344543457,
+                    0.8136371374130249
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "718f4994-db30-4bb3-8676-01f2f2a62365",
+        "scene_id": "scene0086_00",
+        "description": "It is the sink on the right under the wall-mounted soap dispenser",
+        "prediction": [
+            [
+                [
+                    2.9202070236206055,
+                    3.059138298034668,
+                    0.7102729678153992
+                ],
+                [
+                    0.6915724277496338,
+                    0.6856458187103271,
+                    0.49873605370521545
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "180dece3-453a-414a-8b12-e4ce90054a77",
+        "scene_id": "scene0086_00",
+        "description": "It is the sink on the left under the wall-mounted soap dispenser.",
+        "prediction": [
+            [
+                [
+                    2.9202070236206055,
+                    3.059138298034668,
+                    0.7102729678153992
+                ],
+                [
+                    0.6915724277496338,
+                    0.6856458187103271,
+                    0.49873605370521545
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "71f9b465-09d5-45af-a520-9aefc5283243",
+        "scene_id": "scene0086_00",
+        "description": "The object of interest is next to the paper towel dispenser but not above it. It is used for holding used paper towels.",
+        "prediction": [
+            [
+                [
+                    2.766989231109619,
+                    2.5862436294555664,
+                    1.5114623308181763
+                ],
+                [
+                    0.36395764350891113,
+                    0.39267516136169434,
+                    0.37854671478271484
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "ff19109e-24ac-4cba-b5c9-38242c861551",
+        "scene_id": "scene0086_00",
+        "description": "The long, metal rail is in between the toilet paper dispenser and trash can.",
+        "prediction": [
+            [
+                [
+                    0.49980267882347107,
+                    3.8514466285705566,
+                    0.8159165382385254
+                ],
+                [
+                    0.5883947014808655,
+                    0.8374176025390625,
+                    1.3280084133148193
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "e0da99c0-470d-413f-b0c1-7493dfa58585",
+        "scene_id": "scene0164_00",
+        "description": "This is a white appliance for washing dishes automatically.",
+        "prediction": [
+            [
+                [
+                    0.9835106134414673,
+                    0.8160523176193237,
+                    0.4876648485660553
+                ],
+                [
+                    0.7580981254577637,
+                    0.17889553308486938,
+                    0.850626528263092
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "9ae77ae5-c157-4711-a2be-0224362b3305",
+        "scene_id": "scene0164_00",
+        "description": "On the counter is an object labeled, \"broth.\"",
+        "prediction": [
+            [
+                [
+                    0.24841144680976868,
+                    0.6352709531784058,
+                    1.151493787765503
+                ],
+                [
+                    0.4736190438270569,
+                    0.5831539630889893,
+                    0.2957669496536255
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "a3f1c2e4-3dd2-4ad3-b88b-6b5454907a4a",
+        "scene_id": "scene0164_00",
+        "description": "To the right of the fridge is a small, rectangular object.",
+        "prediction": [
+            [
+                [
+                    0.6931067705154419,
+                    1.1453590393066406,
+                    0.5268596410751343
+                ],
+                [
+                    0.12564486265182495,
+                    0.535071611404419,
+                    0.8049408793449402
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "69a0479f-e191-4227-a8bd-c1644dd41559",
+        "scene_id": "scene0164_00",
+        "description": "Starting from the right of the fridge, this is the second cabinet above the counter.",
+        "prediction": [
+            [
+                [
+                    0.33213984966278076,
+                    0.5828902721405029,
+                    1.5204319953918457
+                ],
+                [
+                    0.0915471613407135,
+                    0.4659229815006256,
+                    0.2760888338088989
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "3f9a782a-6c90-4903-99ee-bd77aee1d204",
+        "scene_id": "scene0164_00",
+        "description": "Starting from the right of the fridge, this is the closed cabinet above the counter. It is not the middle one.",
+        "prediction": [
+            [
+                [
+                    0.33213984966278076,
+                    0.5828902721405029,
+                    1.5204319953918457
+                ],
+                [
+                    0.0915471613407135,
+                    0.4659229815006256,
+                    0.2760888338088989
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "f3046ffe-dcd2-4ee1-b645-9fe300d1af1a",
+        "scene_id": "scene0164_00",
+        "description": "Find the coca-cola box on the counter.",
+        "prediction": [
+            [
+                [
+                    0.5716533660888672,
+                    1.2677379846572876,
+                    1.1551393270492554
+                ],
+                [
+                    0.3622575104236603,
+                    0.3708219528198242,
+                    0.3464219570159912
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "5172433a-8c72-4d38-a86c-dcc4cb235f79",
+        "scene_id": "scene0164_00",
+        "description": "Find the box of Samuel Adams beers in the kitchen.",
+        "prediction": [
+            [
+                [
+                    0.6041655540466309,
+                    1.0451998710632324,
+                    1.0512961149215698
+                ],
+                [
+                    0.39294785261154175,
+                    0.3602350950241089,
+                    0.17583638429641724
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "a74af323-c3e2-41b4-8c75-6985807d51ae",
+        "scene_id": "scene0164_00",
+        "description": "Grab the box on the counter that appears taller than the rest.",
+        "prediction": [
+            [
+                [
+                    2.6334800720214844,
+                    0.7559549808502197,
+                    1.755058765411377
+                ],
+                [
+                    0.12410521507263184,
+                    0.6598186492919922,
+                    0.8196072578430176
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "d3732437-0b05-4195-b54c-30740f314a4e",
+        "scene_id": "scene0164_00",
+        "description": "This is the wooden cabinet in between the dishwasher and oven.",
+        "prediction": [
+            [
+                [
+                    0.6931067705154419,
+                    1.1453590393066406,
+                    0.5268596410751343
+                ],
+                [
+                    0.12564486265182495,
+                    0.535071611404419,
+                    0.8049408793449402
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "b6453470-1668-4b6d-aeba-637d8b3f6432",
+        "scene_id": "scene0164_00",
+        "description": "The appliance is the only rectangular one which is completely black.",
+        "prediction": [
+            [
+                [
+                    2.6413073539733887,
+                    2.02933931350708,
+                    0.7898863554000854
+                ],
+                [
+                    0.773658037185669,
+                    0.826007604598999,
+                    1.5092902183532715
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "5932abbf-62ce-4970-a5f7-ee7270e04873",
+        "scene_id": "scene0164_00",
+        "description": "There is a black bag in the scene which is not partially in the kitchen.",
+        "prediction": [
+            [
+                [
+                    1.215721607208252,
+                    3.710578203201294,
+                    0.21478371322155
+                ],
+                [
+                    0.529365062713623,
+                    0.4020519256591797,
+                    0.36596640944480896
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "a4ea0d85-1ab7-4a78-b4c5-2f870d9f9b69",
+        "scene_id": "scene0222_00",
+        "description": "This is a circular, unicolor object which faces one of the beds.",
+        "prediction": [
+            [
+                [
+                    4.109713077545166,
+                    2.270320177078247,
+                    0.4198853671550751
+                ],
+                [
+                    0.67384934425354,
+                    0.7286087274551392,
+                    0.7975812554359436
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "a6a755f9-a93b-4726-81ae-b7eb49a5a5e4",
+        "scene_id": "scene0222_00",
+        "description": "A bottle labeled \"tums\" can be found on this desk.",
+        "prediction": [
+            [
+                [
+                    1.9934895038604736,
+                    1.7414560317993164,
+                    0.6268320083618164
+                ],
+                [
+                    0.025702476501464844,
+                    0.19845926761627197,
+                    0.04883331060409546
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "055964de-721d-4847-b193-ca8b291d7c42",
+        "scene_id": "scene0222_00",
+        "description": "This dormitory-style object is covered by cotton fabrics and in front of a stack of papers with the number, \"150\" in big font.",
+        "prediction": [
+            [
+                [
+                    4.117067337036133,
+                    0.14190486073493958,
+                    1.4393659830093384
+                ],
+                [
+                    1.2344894409179688,
+                    0.27452027797698975,
+                    1.3785579204559326
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "476f7e98-e7fa-4b29-8e73-2a4caf2e86ad",
+        "scene_id": "scene0222_00",
+        "description": "This desk has a circular object with the large letters, \"ECF\", on it.",
+        "prediction": [
+            [
+                [
+                    3.6695196628570557,
+                    0.6654032468795776,
+                    0.5152613520622253
+                ],
+                [
+                    1.8637804985046387,
+                    0.8045380115509033,
+                    0.9701150059700012
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "50273e8e-8b76-492c-8d1e-8debad2f3b64",
+        "scene_id": "scene0222_00",
+        "description": "Face the wall to the left of the door as you enter. This is the third object from the left against the wall.",
+        "prediction": [
+            [
+                [
+                    4.117067337036133,
+                    0.14190486073493958,
+                    1.4393659830093384
+                ],
+                [
+                    1.2344894409179688,
+                    0.27452027797698975,
+                    1.3785579204559326
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "580fa8a5-ad51-4f83-a027-a31ee5350616",
+        "scene_id": "scene0222_00",
+        "description": "This window is second from the right.",
+        "prediction": [
+            [
+                [
+                    5.450014114379883,
+                    0.11717857420444489,
+                    1.449899673461914
+                ],
+                [
+                    1.3805484771728516,
+                    0.2357080578804016,
+                    1.3649324178695679
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "5c98b0a6-adb5-41a6-9850-7684c901f1ea",
+        "scene_id": "scene0222_00",
+        "description": "These are all the long, soft places in the room.",
+        "prediction": [
+            [
+                [
+                    4.091306686401367,
+                    1.7401987314224243,
+                    0.14053325355052948
+                ],
+                [
+                    6.190006732940674,
+                    3.109095811843872,
+                    0.3118956983089447
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "b5dbd31c-bd49-46fa-8488-1d0c65c3f6ca",
+        "scene_id": "scene0222_00",
+        "description": "There are several plastic or fabric containers in the room. These are the most empty ones.",
+        "prediction": [
+            [
+                [
+                    6.9973273277282715,
+                    1.210418939590454,
+                    0.268707811832428
+                ],
+                [
+                    0.4122772216796875,
+                    0.438812792301178,
+                    0.40387848019599915
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "41b13410-eeeb-44ab-868c-a01e37f88787",
+        "scene_id": "scene0222_00",
+        "description": "Excluding the wardrobes, there are several containers in the room. This one has the most soft fabrics in it.",
+        "prediction": [
+            [
+                [
+                    2.071377992630005,
+                    2.2350032329559326,
+                    1.3287711143493652
+                ],
+                [
+                    0.6208556890487671,
+                    3.6975607872009277,
+                    1.9191555976867676
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "1310a249-3345-4254-aae5-d4b95675fcd4",
+        "scene_id": "scene0222_00",
+        "description": "Look for the box that says \"Irish Springs\" on it. The bed of interest is the one that is closest to the desk supporting that box.",
+        "prediction": [
+            [
+                [
+                    3.6695196628570557,
+                    0.6654032468795776,
+                    0.5152613520622253
+                ],
+                [
+                    1.8637804985046387,
+                    0.8045380115509033,
+                    0.9701150059700012
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "016ff067-72aa-4135-aabe-08e5e71534b2",
+        "scene_id": "scene0222_00",
+        "description": "This is the messier of the two desks.",
+        "prediction": [
+            [
+                [
+                    3.6695196628570557,
+                    0.6654032468795776,
+                    0.5152613520622253
+                ],
+                [
+                    1.8637804985046387,
+                    0.8045380115509033,
+                    0.9701150059700012
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "bb8c0c6c-ff9b-41ce-9e34-4a3a9ea24a0c",
+        "scene_id": "scene0222_00",
+        "description": "This is the chair with the soft clothes on it.",
+        "prediction": [
+            [
+                [
+                    3.4526078701019287,
+                    1.5762712955474854,
+                    0.4336906671524048
+                ],
+                [
+                    0.6482706069946289,
+                    0.7764662504196167,
+                    0.8247027397155762
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "e0439902-6b19-4064-9588-e62bb5c3679c",
+        "scene_id": "scene0222_00",
+        "description": "This is the chair with the rigid clothes on it.",
+        "prediction": [
+            [
+                [
+                    3.4526078701019287,
+                    1.5762712955474854,
+                    0.4336906671524048
+                ],
+                [
+                    0.6482706069946289,
+                    0.7764662504196167,
+                    0.8247027397155762
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "0561b3e3-a2b4-403a-bbe0-102e5c6de435",
+        "scene_id": "scene0222_00",
+        "description": "These are the basic, wooden chairs in the room.",
+        "prediction": [
+            [
+                [
+                    4.109713077545166,
+                    2.270320177078247,
+                    0.4198853671550751
+                ],
+                [
+                    0.67384934425354,
+                    0.7286087274551392,
+                    0.7975812554359436
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "f692d5b2-49cb-4952-873c-93514ce278e4",
+        "scene_id": "scene0222_00",
+        "description": "These are the fancy, wooden chairs in the room.",
+        "prediction": [
+            [
+                [
+                    7.169033527374268,
+                    1.4579031467437744,
+                    1.2071669101715088
+                ],
+                [
+                    0.27371692657470703,
+                    2.661015033721924,
+                    2.261136531829834
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "5113773e-76a1-41cb-b205-9d9c66b56a14",
+        "scene_id": "scene0222_00",
+        "description": "These are the visible clothes which are most well stored.",
+        "prediction": [
+            [
+                [
+                    1.3065162897109985,
+                    0.9527297019958496,
+                    1.1281439065933228
+                ],
+                [
+                    0.5637032985687256,
+                    1.1129693984985352,
+                    0.95000821352005
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "2bb5f69f-5be7-473a-a0b0-ac7a0f556a3a",
+        "scene_id": "scene0193_00",
+        "description": "Not including the floor, there are three objects in the room that you could reasonably sit on. Pick the one that would feel the hardest.",
+        "prediction": [
+            [
+                [
+                    1.775697946548462,
+                    2.2440102100372314,
+                    0.06057174876332283
+                ],
+                [
+                    3.738887310028076,
+                    4.2978901863098145,
+                    0.1327546089887619
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "f5274b23-6e3c-4d3c-849a-973c23652a02",
+        "scene_id": "scene0193_00",
+        "description": "This is the desk with the closed drawers.",
+        "prediction": [
+            [
+                [
+                    1.775697946548462,
+                    2.2440102100372314,
+                    0.06057174876332283
+                ],
+                [
+                    3.738887310028076,
+                    4.2978901863098145,
+                    0.1327546089887619
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "708f2c3e-c1eb-46c8-b35f-70e107fa4c40",
+        "scene_id": "scene0193_00",
+        "description": "This is the desk with the open drawers.",
+        "prediction": [
+            [
+                [
+                    1.775697946548462,
+                    2.2440102100372314,
+                    0.06057174876332283
+                ],
+                [
+                    3.738887310028076,
+                    4.2978901863098145,
+                    0.1327546089887619
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "6102d421-f3b6-4e1b-b5bf-558c8fe0649d",
+        "scene_id": "scene0193_00",
+        "description": "Find a rectangular object that you would normally sleep on at night.",
+        "prediction": [
+            [
+                [
+                    2.7645223140716553,
+                    0.570999264717102,
+                    2.267879009246826
+                ],
+                [
+                    2.1627817153930664,
+                    1.1482107639312744,
+                    0.11183714866638184
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "ee761aea-b560-40ae-b93a-27269d1d0ae2",
+        "scene_id": "scene0193_00",
+        "description": "Find a circular object that you would normally sleep on at night.",
+        "prediction": [
+            [
+                [
+                    2.7645223140716553,
+                    0.570999264717102,
+                    2.267879009246826
+                ],
+                [
+                    2.1627817153930664,
+                    1.1482107639312744,
+                    0.11183714866638184
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "c1dbb068-0dd9-4f46-8a35-3d1f99d70a95",
+        "scene_id": "scene0193_00",
+        "description": "This is the wooden furniture in the room.",
+        "prediction": [
+            [
+                [
+                    3.6578009128570557,
+                    1.7640936374664307,
+                    1.1524981260299683
+                ],
+                [
+                    0.4070439338684082,
+                    2.962686538696289,
+                    2.266531229019165
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "1fc0e3d3-f139-44a9-b151-94b559614ee2",
+        "scene_id": "scene0193_00",
+        "description": "Within the room is the furniture that is not made of wood.",
+        "prediction": [
+            [
+                [
+                    1.775697946548462,
+                    2.2440102100372314,
+                    0.06057174876332283
+                ],
+                [
+                    3.738887310028076,
+                    4.2978901863098145,
+                    0.1327546089887619
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "1edaf89e-d28e-4f51-a6a5-58603e51d12e",
+        "scene_id": "scene0193_00",
+        "description": "Look for the velvet object blocking the light.",
+        "prediction": [
+            [
+                [
+                    2.7645223140716553,
+                    0.570999264717102,
+                    2.267879009246826
+                ],
+                [
+                    2.1627817153930664,
+                    1.1482107639312744,
+                    0.11183714866638184
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "2ad80383-56a2-4beb-b5e9-1561669db948",
+        "scene_id": "scene0193_00",
+        "description": "This is the soft thing that you can sit on. It is the smaller of the two soft things.",
+        "prediction": [
+            [
+                [
+                    0.5533329844474792,
+                    4.01351261138916,
+                    0.5830927491188049
+                ],
+                [
+                    0.3956014811992645,
+                    0.1543116569519043,
+                    1.091591715812683
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "1d7e8778-f479-4949-a200-f54ab2889c6d",
+        "scene_id": "scene0221_00",
+        "description": "This is a classy queen-size bed, farthest from the door of the hotel room.",
+        "prediction": [
+            [
+                [
+                    4.298131465911865,
+                    2.3758351802825928,
+                    0.5948941707611084
+                ],
+                [
+                    2.187255620956421,
+                    2.4820332527160645,
+                    1.1455204486846924
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "efe28f39-604a-454c-a342-d08cc3c6fb28",
+        "scene_id": "scene0221_00",
+        "description": "This is the octagonal working surface in the room.",
+        "prediction": [
+            [
+                [
+                    6.486639022827148,
+                    3.714359760284424,
+                    0.9846664071083069
+                ],
+                [
+                    0.24075937271118164,
+                    0.5767881870269775,
+                    1.7290266752243042
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "cc78e3a8-f423-4704-a7b7-6d1c99cc310e",
+        "scene_id": "scene0221_00",
+        "description": "This is the pentagonal working surface in the room.",
+        "prediction": [
+            [
+                [
+                    0.3135893940925598,
+                    3.7973203659057617,
+                    0.5043401122093201
+                ],
+                [
+                    0.581053614616394,
+                    0.9799318313598633,
+                    0.5746235847473145
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "e28b14a4-7557-468f-863b-e701d9c26044",
+        "scene_id": "scene0221_00",
+        "description": "This is the rectangular working surface in the room. It is the least square of the candidates.",
+        "prediction": [
+            [
+                [
+                    5.386104106903076,
+                    1.0879242420196533,
+                    0.357624888420105
+                ],
+                [
+                    0.34345436096191406,
+                    0.5149161219596863,
+                    0.3337695598602295
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "98857df5-5a72-43b0-b9ab-d76ea299851f",
+        "scene_id": "scene0221_00",
+        "description": "What door would I use to enter or exit the hotel room?",
+        "prediction": [
+            [
+                [
+                    6.200161933898926,
+                    4.164832592010498,
+                    0.9718204140663147
+                ],
+                [
+                    0.8411669731140137,
+                    0.3397035598754883,
+                    1.732383131980896
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "392baf0f-fc7b-4bd7-a6fa-a060436187b3",
+        "scene_id": "scene0221_00",
+        "description": "Farthest from the bathroom is an ergonomic office chair with a flexible fabric.",
+        "prediction": [
+            [
+                [
+                    3.075075626373291,
+                    5.083982944488525,
+                    0.6255863308906555
+                ],
+                [
+                    0.7965891361236572,
+                    0.7361049652099609,
+                    1.108655333518982
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "4714eadc-bd33-4f9a-af1c-949e28df9af2",
+        "scene_id": "scene0221_00",
+        "description": "Search for the farthest chair from the hotel door. This chair is made of metal and feels cold to the touch.",
+        "prediction": [
+            [
+                [
+                    1.6669870615005493,
+                    5.4538702964782715,
+                    0.7161379456520081
+                ],
+                [
+                    0.690026044845581,
+                    0.6557493209838867,
+                    1.0891965627670288
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "501b2a41-c231-4135-a5fa-807222fc953e",
+        "scene_id": "scene0221_00",
+        "description": "Find the object shaped almost like a flat rocket ship. It is has a relatively soft fabric on top to support clothes and metal legs for stability. It is currently folded and hanging on the wall.",
+        "prediction": [
+            [
+                [
+                    4.298131465911865,
+                    2.3758351802825928,
+                    0.5948941707611084
+                ],
+                [
+                    2.187255620956421,
+                    2.4820332527160645,
+                    1.1455204486846924
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "c066d15c-0ea8-400c-ab53-6d79a15767b6",
+        "scene_id": "scene0221_00",
+        "description": "This is the bed not far from the mini fridge.",
+        "prediction": [
+            [
+                [
+                    4.298131465911865,
+                    2.3758351802825928,
+                    0.5948941707611084
+                ],
+                [
+                    2.187255620956421,
+                    2.4820332527160645,
+                    1.1455204486846924
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "3c7f0779-7b32-42fe-98d8-4072f194da60",
+        "scene_id": "scene0221_00",
+        "description": "In the row of chairs and tables against the wall, find the third chair from the left.",
+        "prediction": [
+            [
+                [
+                    3.075075626373291,
+                    5.083982944488525,
+                    0.6255863308906555
+                ],
+                [
+                    0.7965891361236572,
+                    0.7361049652099609,
+                    1.108655333518982
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "9d3990ed-62ef-4956-b357-7fb58586f772",
+        "scene_id": "scene0221_00",
+        "description": "There is an table between the two beds.",
+        "prediction": [
+            [
+                [
+                    3.029967784881592,
+                    2.040294647216797,
+                    0.3420092761516571
+                ],
+                [
+                    0.7464570999145508,
+                    0.6590265035629272,
+                    0.5643842816352844
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "4772e2f8-59e9-4d82-b72d-2c4092d61db1",
+        "scene_id": "scene0196_00",
+        "description": "Next to the table closest to the entrance, find all of the unfolded chairs.",
+        "prediction": [
+            [
+                [
+                    4.634348392486572,
+                    2.212333917617798,
+                    0.38145774602890015
+                ],
+                [
+                    1.2264862060546875,
+                    1.5888975858688354,
+                    0.7420858144760132
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "e276ae71-4613-4bd5-9ee6-45ad68b6f417",
+        "scene_id": "scene0196_00",
+        "description": "Find the folded chair closest to the door.",
+        "prediction": [
+            [
+                [
+                    4.0896759033203125,
+                    0.5506919026374817,
+                    0.4841769337654114
+                ],
+                [
+                    0.464444637298584,
+                    0.6046266555786133,
+                    0.8220391273498535
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "a05b8eb0-9e62-4a02-a25d-a3fb6aac5a1c",
+        "scene_id": "scene0196_00",
+        "description": "In between two other chairs is a folded chair.",
+        "prediction": [
+            [
+                [
+                    2.510805606842041,
+                    1.5476572513580322,
+                    0.41021206974983215
+                ],
+                [
+                    0.42774415016174316,
+                    0.5258680582046509,
+                    0.607128918170929
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "e7a57835-5a8e-44a7-85bc-cb50de6efc32",
+        "scene_id": "scene0196_00",
+        "description": "The table is the largest one far from the door.",
+        "prediction": [
+            [
+                [
+                    2.3633577823638916,
+                    5.0334553718566895,
+                    0.5428512096405029
+                ],
+                [
+                    1.3061531782150269,
+                    1.6426029205322266,
+                    0.7398221492767334
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "e1956772-024c-43cd-8286-9e5acb7c3195",
+        "scene_id": "scene0196_00",
+        "description": "This is the smaller of the tables in the room, in between two others. It is across the room from the row of folded chairs.",
+        "prediction": [
+            [
+                [
+                    2.510805606842041,
+                    1.5476572513580322,
+                    0.41021206974983215
+                ],
+                [
+                    0.42774415016174316,
+                    0.5258680582046509,
+                    0.607128918170929
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "ad59fc9e-a8bd-4576-b390-3848da7f2a43",
+        "scene_id": "scene0196_00",
+        "description": "As you enter through the door, look for the closest three identical objects, arranged in a row, that you can sit on. This is the third one from the left.",
+        "prediction": [
+            [
+                [
+                    3.498009204864502,
+                    0.5383739471435547,
+                    1.1477279663085938
+                ],
+                [
+                    0.3271796703338623,
+                    0.565544843673706,
+                    1.1489039659500122
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "8a7f6da4-7943-43a9-b82b-ee32c6b0fc1c",
+        "scene_id": "scene0196_00",
+        "description": "Seek the middle folded chair.",
+        "prediction": [
+            [
+                [
+                    4.044361114501953,
+                    2.811516523361206,
+                    0.42746925354003906
+                ],
+                [
+                    0.585792064666748,
+                    0.6566505432128906,
+                    0.8212926387786865
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "af192fb6-e1a2-493e-9f38-afe4661626e1",
+        "scene_id": "scene0144_00",
+        "description": "This is the soft chair in the room.",
+        "prediction": [
+            [
+                [
+                    2.398257255554199,
+                    3.0846104621887207,
+                    0.4452241361141205
+                ],
+                [
+                    0.5215353965759277,
+                    0.5689806938171387,
+                    0.7565240263938904
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "96c676ff-412a-46e9-ab4e-a2b0577dfbfc",
+        "scene_id": "scene0144_00",
+        "description": "These are the hard chairs in the room.",
+        "prediction": [
+            [
+                [
+                    1.7229002714157104,
+                    0.5209921002388,
+                    1.2509523630142212
+                ],
+                [
+                    3.2006208896636963,
+                    0.21161064505577087,
+                    2.374849557876587
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "7866a3c8-5740-41cd-b32f-632cee691491",
+        "scene_id": "scene0144_00",
+        "description": "At the desk is a chair on the left.",
+        "prediction": [
+            [
+                [
+                    3.097062110900879,
+                    2.036022424697876,
+                    0.46654972434043884
+                ],
+                [
+                    0.5147802829742432,
+                    1.550092101097107,
+                    0.8867704272270203
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "4cb761f6-df64-4e6e-9542-14c00acfda6d",
+        "scene_id": "scene0144_00",
+        "description": "Find the door that you would need to open to access clothes.",
+        "prediction": [
+            [
+                [
+                    3.2868804931640625,
+                    0.8664878010749817,
+                    0.616568386554718
+                ],
+                [
+                    0.09670901298522949,
+                    0.8940712213516235,
+                    1.162319302558899
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "6b89e25c-4d1f-47dd-9345-3677e62f2aad",
+        "scene_id": "scene0144_00",
+        "description": "If a person were lying down on the bed, this would be the device at their feet on the flat tabular surface.",
+        "prediction": [
+            [
+                [
+                    0.5467119216918945,
+                    1.8980796337127686,
+                    0.9214450120925903
+                ],
+                [
+                    0.5437530279159546,
+                    0.49346494674682617,
+                    0.31957775354385376
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "40c830b8-fc4f-4a62-b7ec-6b8c5be032fe",
+        "scene_id": "scene0144_00",
+        "description": "The white plastic chair is the one not directly in front of the laptop.",
+        "prediction": [
+            [
+                [
+                    1.6178851127624512,
+                    3.144742250442505,
+                    0.45671895146369934
+                ],
+                [
+                    0.5648118257522583,
+                    0.5985121726989746,
+                    0.7547442317008972
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "c275e56e-6cd9-4a7d-9be3-4ec3f65aa5a6",
+        "scene_id": "scene0144_00",
+        "description": "This is the longer dresser next to another nightstand covered in a blanket.",
+        "prediction": [
+            [
+                [
+                    3.097062110900879,
+                    2.036022424697876,
+                    0.46654972434043884
+                ],
+                [
+                    0.5147802829742432,
+                    1.550092101097107,
+                    0.8867704272270203
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "30e8f0c9-187a-43ad-a8da-f88667328269",
+        "scene_id": "scene0149_00",
+        "description": "The appliance is in between two sections of the counter, and near by the fridge.",
+        "prediction": [
+            [
+                [
+                    3.017357349395752,
+                    2.8263235092163086,
+                    0.26186656951904297
+                ],
+                [
+                    0.503187894821167,
+                    0.36362719535827637,
+                    0.4238766133785248
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "19595026-3e8b-4136-a4a5-cb8897e904fb",
+        "scene_id": "scene0149_00",
+        "description": "Look for the appliance in between two sections of the counter and near the fridge. The microwave of interest is right above it.",
+        "prediction": [
+            [
+                [
+                    2.78973126411438,
+                    3.24929141998291,
+                    0.5700947046279907
+                ],
+                [
+                    0.4655303955078125,
+                    0.43148350715637207,
+                    0.4769221842288971
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "838bbc2a-a80b-4797-a2a6-ef1fb98d2569",
+        "scene_id": "scene0149_00",
+        "description": "Find the large, rectangular object with magnets on the front.",
+        "prediction": [
+            [
+                [
+                    1.2585697174072266,
+                    1.2072687149047852,
+                    1.240911841392517
+                ],
+                [
+                    0.9182507991790771,
+                    1.6698737144470215,
+                    2.3055245876312256
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "be484cdb-cfe7-4925-9001-4a404e1836f3",
+        "scene_id": "scene0149_00",
+        "description": "Underneath the sink is a cabinet for storing cleaning supplies.",
+        "prediction": [
+            [
+                [
+                    1.2906063795089722,
+                    2.1990089416503906,
+                    0.49906638264656067
+                ],
+                [
+                    0.9821016788482666,
+                    0.40721821784973145,
+                    0.8364973664283752
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "d242fe07-e5b4-4023-98d7-43ebc4a1e830",
+        "scene_id": "scene0149_00",
+        "description": "This is the paper towel roll not on the kitchen table.",
+        "prediction": [
+            [
+                [
+                    2.78973126411438,
+                    3.24929141998291,
+                    0.5700947046279907
+                ],
+                [
+                    0.4655303955078125,
+                    0.43148350715637207,
+                    0.4769221842288971
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "7510430d-ca65-458d-9be6-2b931f8e9513",
+        "scene_id": "scene0149_00",
+        "description": "In between the counter and table is a black trash can in the corner.",
+        "prediction": [
+            [
+                [
+                    2.78973126411438,
+                    3.24929141998291,
+                    0.5700947046279907
+                ],
+                [
+                    0.4655303955078125,
+                    0.43148350715637207,
+                    0.4769221842288971
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "69271358-1519-4b8b-b191-b88a37ff8cea",
+        "scene_id": "scene0149_00",
+        "description": "A white bag is in front of a black trash can on the floor.",
+        "prediction": [
+            [
+                [
+                    3.017357349395752,
+                    2.8263235092163086,
+                    0.26186656951904297
+                ],
+                [
+                    0.503187894821167,
+                    0.36362719535827637,
+                    0.4238766133785248
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "e1bc6bea-cbe9-4c5f-858a-a5c0f1180fc3",
+        "scene_id": "scene0149_00",
+        "description": "A black bag is in front of a white trash can on the floor.",
+        "prediction": [
+            [
+                [
+                    3.017357349395752,
+                    2.8263235092163086,
+                    0.26186656951904297
+                ],
+                [
+                    0.503187894821167,
+                    0.36362719535827637,
+                    0.4238766133785248
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "f8b3088f-2a00-48e6-8f0f-f5b98c534bc4",
+        "scene_id": "scene0149_00",
+        "description": "A white bag is behind a black trash can on the floor.",
+        "prediction": [
+            [
+                [
+                    3.548922538757324,
+                    3.0215003490448,
+                    0.8175904750823975
+                ],
+                [
+                    0.7419309616088867,
+                    0.9953255653381348,
+                    0.17852133512496948
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "da4baf51-7641-49c2-80dc-423ddb518da7",
+        "scene_id": "scene0149_00",
+        "description": "Locate the tallest appliance in the kitchen.",
+        "prediction": [
+            [
+                [
+                    2.3765814304351807,
+                    2.9841132164001465,
+                    1.921112298965454
+                ],
+                [
+                    0.9127970933914185,
+                    0.6922264099121094,
+                    1.040134072303772
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "fb226e7e-971b-4886-acae-dda5ab9e8a23",
+        "scene_id": "scene0231_00",
+        "description": "This counter has a coupon book with the number \"20%\" on it.",
+        "prediction": [
+            [
+                [
+                    6.131969451904297,
+                    4.838369369506836,
+                    2.1288957595825195
+                ],
+                [
+                    3.3106002807617188,
+                    4.552523612976074,
+                    0.09959006309509277
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "78254456-b6f7-4275-a3ea-9e46327d0b1d",
+        "scene_id": "scene0231_00",
+        "description": "This counter has a coupon book with the number \"37%\" on it.",
+        "prediction": [
+            [
+                [
+                    4.548940658569336,
+                    2.9366977214813232,
+                    2.1703834533691406
+                ],
+                [
+                    1.561617374420166,
+                    1.3422484397888184,
+                    0.12360835075378418
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "5b9d509e-57ba-4110-8bad-933dc3b4e23d",
+        "scene_id": "scene0231_00",
+        "description": "This is the most cluttered counter in the kitchen.",
+        "prediction": [
+            [
+                [
+                    7.4739885330200195,
+                    5.443901062011719,
+                    1.0731171369552612
+                ],
+                [
+                    3.8136258125305176,
+                    6.017164707183838,
+                    0.48802000284194946
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "86c14217-736b-44e2-af91-d182a33a087c",
+        "scene_id": "scene0231_00",
+        "description": "These are the fancy chairs in the living room that don't have a cylindrical item on them.",
+        "prediction": [
+            [
+                [
+                    0.853575587272644,
+                    3.5416808128356934,
+                    0.6960080862045288
+                ],
+                [
+                    1.0593268871307373,
+                    1.0098340511322021,
+                    0.9980387687683105
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "8bda9374-4cdc-4ce9-af6f-e262588bf1a8",
+        "scene_id": "scene0231_00",
+        "description": "From the perspective of the kitchen island, this is the third appliance sweeping from the left.",
+        "prediction": [
+            [
+                [
+                    2.7374236583709717,
+                    6.503009796142578,
+                    1.4556818008422852
+                ],
+                [
+                    0.19953203201293945,
+                    0.10303068161010742,
+                    0.43285071849823
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "420f0d9c-68f7-441b-892a-af8ec121e89a",
+        "scene_id": "scene0231_00",
+        "description": "This is the row of contiguous three cabinets to the right of the oven. This group does not include drawers.",
+        "prediction": [
+            [
+                [
+                    6.076649188995361,
+                    2.929471969604492,
+                    0.4830326437950134
+                ],
+                [
+                    0.99432373046875,
+                    0.48778700828552246,
+                    0.874802827835083
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "d02b1fa1-9b8b-4459-8f71-80f31cd31a6d",
+        "scene_id": "scene0231_00",
+        "description": "This object has a design with three pandas on it.",
+        "prediction": [
+            [
+                [
+                    0.32816970348358154,
+                    3.1767096519470215,
+                    1.4392510652542114
+                ],
+                [
+                    0.885064959526062,
+                    1.6681640148162842,
+                    2.3832199573516846
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "996aec32-75d2-4cb4-b724-5b9566c321a7",
+        "scene_id": "scene0231_00",
+        "description": "The sofa chair is the one far from the wall with the poster with the words, \"Avalanches\", on it.",
+        "prediction": [
+            [
+                [
+                    0.853575587272644,
+                    3.5416808128356934,
+                    0.6960080862045288
+                ],
+                [
+                    1.0593268871307373,
+                    1.0098340511322021,
+                    0.9980387687683105
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "2957c194-dd54-44eb-887c-78ffb8c4d4aa",
+        "scene_id": "scene0231_00",
+        "description": "Of the four seats in the kitchen, one of them stands out the most. Bring the other three.",
+        "prediction": [
+            [
+                [
+                    0.853575587272644,
+                    3.5416808128356934,
+                    0.6960080862045288
+                ],
+                [
+                    1.0593268871307373,
+                    1.0098340511322021,
+                    0.9980387687683105
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "c5d63867-c229-4008-9a06-d1888b6f8ee3",
+        "scene_id": "scene0050_00",
+        "description": "This is the larger of the two toolboxes near the piano.",
+        "prediction": [
+            [
+                [
+                    2.8222923278808594,
+                    3.920036792755127,
+                    1.6120803356170654
+                ],
+                [
+                    0.1610403060913086,
+                    0.6125824451446533,
+                    1.4592989683151245
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "6773de47-4731-4933-ba77-64612cbe4316",
+        "scene_id": "scene0050_00",
+        "description": "To the left of the piano is a red rectangular thing.",
+        "prediction": [
+            [
+                [
+                    3.0871741771698,
+                    3.4403176307678223,
+                    0.514217734336853
+                ],
+                [
+                    0.9752392768859863,
+                    1.5310468673706055,
+                    0.9143385887145996
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "d15e427f-5ba2-4a84-8a41-579a1c856447",
+        "scene_id": "scene0050_00",
+        "description": "Identify the backpacks in the center of the room.",
+        "prediction": [
+            [
+                [
+                    4.472853183746338,
+                    2.3257503509521484,
+                    0.1382499784231186
+                ],
+                [
+                    3.9119060039520264,
+                    3.8724324703216553,
+                    0.23430851101875305
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "ddd8fe20-85a5-4968-b745-54c0c92f1feb",
+        "scene_id": "scene0050_00",
+        "description": "This is the device used for cleaning the floor.",
+        "prediction": [
+            [
+                [
+                    6.016219139099121,
+                    2.055882692337036,
+                    0.3994744122028351
+                ],
+                [
+                    0.286928653717041,
+                    0.47360217571258545,
+                    0.31439119577407837
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "3a267db7-0fa0-40c6-971a-cfac076b9afc",
+        "scene_id": "scene0050_00",
+        "description": "If you are sitting on the couch, this is the bag further to the right.",
+        "prediction": [
+            [
+                [
+                    2.8222923278808594,
+                    3.920036792755127,
+                    1.6120803356170654
+                ],
+                [
+                    0.1610403060913086,
+                    0.6125824451446533,
+                    1.4592989683151245
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "ab7b02a6-3ce1-4e72-a0bf-88c9b888b684",
+        "scene_id": "scene0050_00",
+        "description": "The backpack is in between two other backpacks.",
+        "prediction": [
+            [
+                [
+                    4.061173439025879,
+                    2.044083833694458,
+                    0.5599532723426819
+                ],
+                [
+                    0.49041128158569336,
+                    0.3918795585632324,
+                    0.2360447645187378
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "59f529b2-c9c3-4252-a956-51062941afc6",
+        "scene_id": "scene0050_00",
+        "description": "The machine on the desk is used for putting ink on paper.",
+        "prediction": [
+            [
+                [
+                    3.0871741771698,
+                    3.4403176307678223,
+                    0.514217734336853
+                ],
+                [
+                    0.9752392768859863,
+                    1.5310468673706055,
+                    0.9143385887145996
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "ac326ef5-f859-4f9b-a9c2-7d534c869c79",
+        "scene_id": "scene0050_00",
+        "description": "Find the cushy chair next to the desk.",
+        "prediction": [
+            [
+                [
+                    3.0314409732818604,
+                    2.289783000946045,
+                    0.45413315296173096
+                ],
+                [
+                    0.7510218620300293,
+                    0.7460123300552368,
+                    0.7946058511734009
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "a0c87c00-7e09-4d09-9186-36c412d8c701",
+        "scene_id": "scene0050_00",
+        "description": "There is a wall with two independent doors. The door of interest has a handle on the left side from inside the room.",
+        "prediction": [
+            [
+                [
+                    6.398232936859131,
+                    3.207122802734375,
+                    1.244881272315979
+                ],
+                [
+                    0.1613149642944336,
+                    1.6004369258880615,
+                    2.29714035987854
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "eeaf9a05-9051-44ba-9b77-f880b484a14a",
+        "scene_id": "scene0187_00",
+        "description": "Find the minimalistic seat not next to a table.",
+        "prediction": [
+            [
+                [
+                    2.358238697052002,
+                    4.762103080749512,
+                    0.42325711250305176
+                ],
+                [
+                    0.774255633354187,
+                    0.8238849639892578,
+                    0.2608315944671631
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "75118f90-60e2-44af-997d-87e5f1d2bf34",
+        "scene_id": "scene0187_00",
+        "description": "This is the square table not far from the minimalistic seat. It is across the room from the green object.",
+        "prediction": [
+            [
+                [
+                    2.818809986114502,
+                    5.752068042755127,
+                    0.46653029322624207
+                ],
+                [
+                    1.5198681354522705,
+                    1.5474014282226562,
+                    0.8256044983863831
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "abb22583-d45e-4843-9a7a-a3561e74438b",
+        "scene_id": "scene0187_00",
+        "description": "These are the modern chairs that don't have a backrest.",
+        "prediction": [
+            [
+                [
+                    4.761792182922363,
+                    2.796761989593506,
+                    0.5466198921203613
+                ],
+                [
+                    1.2094454765319824,
+                    1.2033514976501465,
+                    0.7983313202857971
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "218c2749-df96-475d-b97e-a7766a521e77",
+        "scene_id": "scene0187_00",
+        "description": "Look for the smallest chairs in the room.",
+        "prediction": [
+            [
+                [
+                    4.761792182922363,
+                    2.796761989593506,
+                    0.5466198921203613
+                ],
+                [
+                    1.2094454765319824,
+                    1.2033514976501465,
+                    0.7983313202857971
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "e0efc50a-2237-4a46-9967-7f20e3a7be7e",
+        "scene_id": "scene0187_00",
+        "description": "Find the circular objects.",
+        "prediction": [
+            [
+                [
+                    3.4430131912231445,
+                    7.675570487976074,
+                    0.6499179005622864
+                ],
+                [
+                    0.6490907669067383,
+                    0.5602254867553711,
+                    0.5076707601547241
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "4d0f6730-b256-405b-91f0-718b012c9175",
+        "scene_id": "scene0187_00",
+        "description": "Looking at the wall, this is the second chair from the left. We are not counting the orange chair here.",
+        "prediction": [
+            [
+                [
+                    4.761792182922363,
+                    2.796761989593506,
+                    0.5466198921203613
+                ],
+                [
+                    1.2094454765319824,
+                    1.2033514976501465,
+                    0.7983313202857971
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "f2cac067-d311-4959-bbbb-bed2af82dbf4",
+        "scene_id": "scene0187_00",
+        "description": "Looking at the wall, this is the second chair from the right.",
+        "prediction": [
+            [
+                [
+                    4.761792182922363,
+                    2.796761989593506,
+                    0.5466198921203613
+                ],
+                [
+                    1.2094454765319824,
+                    1.2033514976501465,
+                    0.7983313202857971
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "da09cc23-0cc6-4551-911f-4721a11984c8",
+        "scene_id": "scene0187_00",
+        "description": "Look for the two dark-colored office chairs. The table of interest is right over them.",
+        "prediction": [
+            [
+                [
+                    5.809410572052002,
+                    6.162380695343018,
+                    0.2136099934577942
+                ],
+                [
+                    1.466261863708496,
+                    1.4537086486816406,
+                    0.4315282702445984
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "7122c6d5-ee17-45aa-994d-06aae4385960",
+        "scene_id": "scene0207_00",
+        "description": "This is the second stool from the left near the bar, if facing the kitchen from the couch area.",
+        "prediction": [
+            [
+                [
+                    6.145233154296875,
+                    1.747007966041565,
+                    0.35090315341949463
+                ],
+                [
+                    0.447263240814209,
+                    0.5687525272369385,
+                    0.587631106376648
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "f570f8cc-d6ea-4fc9-85fe-af70c6a200d9",
+        "scene_id": "scene0207_00",
+        "description": "The sink is the one far from the stove.",
+        "prediction": [
+            [
+                [
+                    7.075643539428711,
+                    2.4226608276367188,
+                    0.8470861911773682
+                ],
+                [
+                    0.5876717567443848,
+                    0.5576250553131104,
+                    0.29941093921661377
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "e59ce57e-c0d1-46ed-9377-2bb7d747fda9",
+        "scene_id": "scene0207_00",
+        "description": "This is a sleek, white thing used to store medicines and objects for hygiene. It is not in the kitchen and can be found ajar.",
+        "prediction": [
+            [
+                [
+                    7.155403137207031,
+                    4.504227161407471,
+                    0.517288327217102
+                ],
+                [
+                    0.40964365005493164,
+                    0.37510108947753906,
+                    1.0084669589996338
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "f84e48a8-5b9e-438f-96e4-c1c5dbfef720",
+        "scene_id": "scene0207_00",
+        "description": "This plastic container has an oval-shaped rim and holes all around it. It is typically used to hold clothes for washing.",
+        "prediction": [
+            [
+                [
+                    3.853635787963867,
+                    4.5318145751953125,
+                    0.3408145308494568
+                ],
+                [
+                    0.4766829013824463,
+                    0.5329995155334473,
+                    0.6227582693099976
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "b115df91-605b-42b2-b36d-2ebf0f242c4b",
+        "scene_id": "scene0207_00",
+        "description": "This is the first window on the left, far from the kitchen.",
+        "prediction": [
+            [
+                [
+                    5.244565486907959,
+                    6.261815071105957,
+                    1.4595178365707397
+                ],
+                [
+                    0.8406791687011719,
+                    0.5749430656433105,
+                    1.207916021347046
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "972c1fe7-e209-4fa0-bf9e-8cdf73a40c77",
+        "scene_id": "scene0207_00",
+        "description": "There are three one-person chairs in the office-bedroom area. This is the one that looks the most different from the rest.",
+        "prediction": [
+            [
+                [
+                    5.503667831420898,
+                    5.849721908569336,
+                    0.46390268206596375
+                ],
+                [
+                    0.6352496147155762,
+                    0.5282382965087891,
+                    0.799257218837738
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "deeff152-0220-4ad3-9cf1-1afd36e49597",
+        "scene_id": "scene0207_00",
+        "description": "This is the wooden bowl next to the bottle labeled \"kikkoman\".",
+        "prediction": [
+            [
+                [
+                    3.853635787963867,
+                    4.5318145751953125,
+                    0.3408145308494568
+                ],
+                [
+                    0.4766829013824463,
+                    0.5329995155334473,
+                    0.6227582693099976
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "e79bb3f9-673d-4550-9a31-62f7e3e60ffb",
+        "scene_id": "scene0207_00",
+        "description": "Look for the device on the far side of the desk from the paper towel roll.",
+        "prediction": [
+            [
+                [
+                    8.59885025024414,
+                    3.6531715393066406,
+                    0.6504193544387817
+                ],
+                [
+                    0.5058317184448242,
+                    0.5625643730163574,
+                    1.2386488914489746
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "0cbbf15a-1203-450c-9321-b739b3e59410",
+        "scene_id": "scene0207_00",
+        "description": "Show me comfy places where one might usually take a nap.",
+        "prediction": [
+            [
+                [
+                    6.051145076751709,
+                    1.4527426958084106,
+                    1.3752005100250244
+                ],
+                [
+                    4.581690788269043,
+                    2.814209222793579,
+                    2.6458683013916016
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "e2235a67-0d28-418b-8e56-f7e77572953b",
+        "scene_id": "scene0207_00",
+        "description": "Under the counter are two plastic bins. Find me the taller one.",
+        "prediction": [
+            [
+                [
+                    3.853635787963867,
+                    4.5318145751953125,
+                    0.3408145308494568
+                ],
+                [
+                    0.4766829013824463,
+                    0.5329995155334473,
+                    0.6227582693099976
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "98188873-30bc-4012-9ed7-33b7047ac844",
+        "scene_id": "scene0207_00",
+        "description": "Under the counter are two plastic bins. This is not the taller one.",
+        "prediction": [
+            [
+                [
+                    6.095198631286621,
+                    2.907228946685791,
+                    0.19555701315402985
+                ],
+                [
+                    0.46855783462524414,
+                    0.38910722732543945,
+                    0.3122391998767853
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "298bd008-3eb3-4a66-820a-fadf2ab7d77d",
+        "scene_id": "scene0207_00",
+        "description": "Identify the stainless steel sink.",
+        "prediction": [
+            [
+                [
+                    7.075643539428711,
+                    2.4226608276367188,
+                    0.8470861911773682
+                ],
+                [
+                    0.5876717567443848,
+                    0.5576250553131104,
+                    0.29941093921661377
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "91ffe39e-597c-47a7-8e3e-a26672d06fdf",
+        "scene_id": "scene0207_00",
+        "description": "This is the backpack nearby the two stools and not on the couch.",
+        "prediction": [
+            [
+                [
+                    5.304991722106934,
+                    1.595457911491394,
+                    0.5283740758895874
+                ],
+                [
+                    1.2061691284179688,
+                    0.611520528793335,
+                    0.4417133331298828
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "72e6640b-a1c6-48e9-9246-552ae11ac757",
+        "scene_id": "scene0207_00",
+        "description": "This storage unit is open, exposing its contents frequently used for cooking. It is somewhat far from the fridge.",
+        "prediction": [
+            [
+                [
+                    4.751596450805664,
+                    4.70145845413208,
+                    1.3764867782592773
+                ],
+                [
+                    1.2927327156066895,
+                    2.008943796157837,
+                    2.652224540710449
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "cdec8ac7-87a7-411f-bbc3-fda4ae4fa966",
+        "scene_id": "scene0207_00",
+        "description": "This appliance is white and rectangular in shape. It is the last in a row of sundry pots and other cooking implements.",
+        "prediction": [
+            [
+                [
+                    7.945345878601074,
+                    3.0271334648132324,
+                    0.7153249979019165
+                ],
+                [
+                    0.7680020332336426,
+                    0.9478399753570557,
+                    0.8900032043457031
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "ce4d4e0d-80f0-4bcd-9a60-a147128458e8",
+        "scene_id": "scene0207_00",
+        "description": "This is the farthest stool from the bed.",
+        "prediction": [
+            [
+                [
+                    2.833444118499756,
+                    2.439634084701538,
+                    0.8465878963470459
+                ],
+                [
+                    0.3950362205505371,
+                    0.46631956100463867,
+                    0.2296968698501587
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "d84077a8-bef4-43e2-a3ea-8febb8c2cd3d",
+        "scene_id": "scene0207_00",
+        "description": "It is the seat which does not have anything proportionally large on it.",
+        "prediction": [
+            [
+                [
+                    6.428561210632324,
+                    4.469932556152344,
+                    1.0850104093551636
+                ],
+                [
+                    0.9364204406738281,
+                    0.6709456443786621,
+                    2.0918266773223877
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "1bb40cb1-c13c-4367-8a7d-280c735178e3",
+        "scene_id": "scene0207_00",
+        "description": "Find the chair with five legs.",
+        "prediction": [
+            [
+                [
+                    4.201671600341797,
+                    1.7207684516906738,
+                    0.46579959988594055
+                ],
+                [
+                    0.7309236526489258,
+                    0.6614924669265747,
+                    0.8992523550987244
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "a2fc9802-1780-4f53-89b3-fb0aa59b2893",
+        "scene_id": "scene0207_00",
+        "description": "Look under the bar. The container of interest is the only one that is open.",
+        "prediction": [
+            [
+                [
+                    3.853635787963867,
+                    4.5318145751953125,
+                    0.3408145308494568
+                ],
+                [
+                    0.4766829013824463,
+                    0.5329995155334473,
+                    0.6227582693099976
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "573ae319-fd7b-4668-9be0-e39b58aafc8b",
+        "scene_id": "scene0207_00",
+        "description": "Above the kitchen counter, there are two cabinets. The one of interest is the one that is first from the right.",
+        "prediction": [
+            [
+                [
+                    7.249571800231934,
+                    2.485358715057373,
+                    2.5153756141662598
+                ],
+                [
+                    2.121476650238037,
+                    1.5151485204696655,
+                    0.4054896831512451
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "dbf472e6-7b23-4c52-bea1-857f17aed0f4",
+        "scene_id": "scene0207_00",
+        "description": "This is the large, rectangular, wooden thing in the middle of the living area.",
+        "prediction": [
+            [
+                [
+                    6.051145076751709,
+                    1.4527426958084106,
+                    1.3752005100250244
+                ],
+                [
+                    4.581690788269043,
+                    2.814209222793579,
+                    2.6458683013916016
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "ab82738f-dccf-442c-9311-a023aa4ad812",
+        "scene_id": "scene0207_00",
+        "description": "This large object, not the ceiling, is farthest from the floor in the bedroom.",
+        "prediction": [
+            [
+                [
+                    7.407118797302246,
+                    6.086546897888184,
+                    1.2344017028808594
+                ],
+                [
+                    1.4807610511779785,
+                    1.355517864227295,
+                    2.3753252029418945
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "b7e54825-a428-42e2-9048-0d35fbc077bc",
+        "scene_id": "scene0207_00",
+        "description": "This is the one appliance in the kitchen on the ground which is not box-like in shape.",
+        "prediction": [
+            [
+                [
+                    5.116700172424316,
+                    2.2108569145202637,
+                    0.2191164195537567
+                ],
+                [
+                    0.43607187271118164,
+                    0.391373872756958,
+                    0.3756202459335327
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "28952ebd-68de-4c0b-ae4b-0de87ba4f618",
+        "scene_id": "scene0207_00",
+        "description": "There are two storage units which do not have doors on them. Pick the one which is higher up.",
+        "prediction": [
+            [
+                [
+                    4.751596450805664,
+                    4.70145845413208,
+                    1.3764867782592773
+                ],
+                [
+                    1.2927327156066895,
+                    2.008943796157837,
+                    2.652224540710449
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "ed481fa0-8283-4b7e-a7da-77c0fc7aebae",
+        "scene_id": "scene0246_00",
+        "description": "This is the fancy chandelier in the room.",
+        "prediction": [
+            [
+                [
+                    3.182847499847412,
+                    4.17479133605957,
+                    1.3853936195373535
+                ],
+                [
+                    1.107848882675171,
+                    0.28856945037841797,
+                    2.4565696716308594
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "c13c60bf-514d-46a5-ab76-b7f611be3063",
+        "scene_id": "scene0246_00",
+        "description": "This is the drab chandelier in the room.",
+        "prediction": [
+            [
+                [
+                    3.861827850341797,
+                    3.361219644546509,
+                    1.1467106342315674
+                ],
+                [
+                    0.3925635814666748,
+                    1.909656047821045,
+                    2.1137800216674805
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "9e3e2a28-5cc7-4b90-8899-2e63f8b10d54",
+        "scene_id": "scene0246_00",
+        "description": "Look for a place to sleep on. It should be very neatly put together.",
+        "prediction": [
+            [
+                [
+                    4.718414783477783,
+                    1.4478983879089355,
+                    0.6245132088661194
+                ],
+                [
+                    0.7239675521850586,
+                    0.8692833185195923,
+                    0.9492772817611694
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "825ff9b7-951c-43ad-b67b-cda227798405",
+        "scene_id": "scene0246_00",
+        "description": "Look for a place to sleep on. It should be in a very messy state.",
+        "prediction": [
+            [
+                [
+                    4.552554130554199,
+                    3.937014579772949,
+                    0.7220008969306946
+                ],
+                [
+                    0.45727014541625977,
+                    0.5657689571380615,
+                    0.24996590614318848
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "a0d1bec8-8e3c-4d0d-9454-a189f857c7bc",
+        "scene_id": "scene0246_00",
+        "description": "Find a hard surface to sit on. Tables and floors do not count.",
+        "prediction": [
+            [
+                [
+                    4.125667095184326,
+                    3.519179582595825,
+                    1.4518351554870605
+                ],
+                [
+                    5.174914360046387,
+                    5.981344699859619,
+                    2.8726916313171387
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "cf49717d-a751-417e-be93-32fa6a4aa1e4",
+        "scene_id": "scene0012_00",
+        "description": "Find the door to the right of the board.",
+        "prediction": [
+            [
+                [
+                    3.6486642360687256,
+                    3.8617477416992188,
+                    0.8210604786872864
+                ],
+                [
+                    1.1764941215515137,
+                    0.8888990879058838,
+                    1.5526915788650513
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "aec1e11f-43c6-4596-8f3a-161880201ef9",
+        "scene_id": "scene0012_00",
+        "description": "This is a cardboard box against the wall and right next to two doors. Of such boxes, it is the one not next to an armchair.",
+        "prediction": [
+            [
+                [
+                    1.2675384283065796,
+                    4.161757469177246,
+                    0.08907626569271088
+                ],
+                [
+                    0.47922444343566895,
+                    0.5516953468322754,
+                    0.0689605325460434
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "9914bb89-4346-489b-9c0b-65fb3815f06a",
+        "scene_id": "scene0012_00",
+        "description": "The armchair has brown paper bags on it.",
+        "prediction": [
+            [
+                [
+                    2.9615097045898438,
+                    0.9614624381065369,
+                    0.4419812560081482
+                ],
+                [
+                    0.7601244449615479,
+                    0.7337881326675415,
+                    0.7503683567047119
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "c5516743-ff56-416d-8f03-32e01e3f993e",
+        "scene_id": "scene0012_00",
+        "description": "As you come through the brown door, this is the shelf which is directly on your right.",
+        "prediction": [
+            [
+                [
+                    4.96938419342041,
+                    2.2719345092773438,
+                    0.8786761164665222
+                ],
+                [
+                    0.6904101371765137,
+                    0.6128585338592529,
+                    1.6270595788955688
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "bd9adff4-a968-4d14-877e-a7a1a867f22b",
+        "scene_id": "scene0012_00",
+        "description": "On top of the shelf is a red and yellow object.",
+        "prediction": [
+            [
+                [
+                    3.435063362121582,
+                    1.3349605798721313,
+                    0.32950612902641296
+                ],
+                [
+                    0.5399267673492432,
+                    0.47866034507751465,
+                    0.601453959941864
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "bc5f27d0-0531-419f-a6f8-a3299adae577",
+        "scene_id": "scene0249_00",
+        "description": "This thing has a symbol on it with three arrows pointing at each other in a triangular configuration.",
+        "prediction": [
+            [
+                [
+                    5.719283103942871,
+                    1.1416375637054443,
+                    0.5839186906814575
+                ],
+                [
+                    0.37297868728637695,
+                    0.48421257734298706,
+                    0.3762218654155731
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "70836002-810d-4735-857a-4b617a519c6b",
+        "scene_id": "scene0249_00",
+        "description": "Where is the folded table, so that we can create more space for people?",
+        "prediction": [
+            [
+                [
+                    7.91407585144043,
+                    7.058073997497559,
+                    0.9335572719573975
+                ],
+                [
+                    0.48203086853027344,
+                    0.5360927581787109,
+                    1.5605692863464355
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "93d46aae-231e-4b80-8ef3-271303b64902",
+        "scene_id": "scene0249_00",
+        "description": "This is the table that is not folded up, roughly between the trash can and blue recycling bin.",
+        "prediction": [
+            [
+                [
+                    5.341154098510742,
+                    9.690670013427734,
+                    0.5363755822181702
+                ],
+                [
+                    1.7435197830200195,
+                    1.6202077865600586,
+                    0.8307198286056519
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "349e15ee-926f-41e9-bd1d-a7874527ce0e",
+        "scene_id": "scene0095_00",
+        "description": "From the perspective of the whiteboards, this is the fourth display facing us from the right.",
+        "prediction": [
+            [
+                [
+                    4.63892936706543,
+                    4.147191524505615,
+                    1.561553716659546
+                ],
+                [
+                    2.319719076156616,
+                    0.27541446685791016,
+                    1.2693766355514526
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "8d6ea906-9d94-4c1b-af56-594565c6c8e5",
+        "scene_id": "scene0095_00",
+        "description": "This is the rectangular whiteboard. It is left of the other one.",
+        "prediction": [
+            [
+                [
+                    4.63892936706543,
+                    4.147191524505615,
+                    1.561553716659546
+                ],
+                [
+                    2.319719076156616,
+                    0.27541446685791016,
+                    1.2693766355514526
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "6d5f8d09-fbf7-4301-ac3a-35471df63598",
+        "scene_id": "scene0095_00",
+        "description": "On the brown, wooden table is a small, rectangular projector.",
+        "prediction": [
+            [
+                [
+                    5.525637626647949,
+                    2.057863473892212,
+                    0.8604774475097656
+                ],
+                [
+                    0.40926265716552734,
+                    0.3704644441604614,
+                    0.24161666631698608
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "5b92c25b-66d9-487f-9915-f32ead9cf18e",
+        "scene_id": "scene0095_00",
+        "description": "On the small, rectangular table is a brown, wooden projector.",
+        "prediction": [
+            [
+                [
+                    5.525637626647949,
+                    2.057863473892212,
+                    0.8604774475097656
+                ],
+                [
+                    0.40926265716552734,
+                    0.3704644441604614,
+                    0.24161666631698608
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "ca0789af-8bd9-40a4-85d6-244b42fe4686",
+        "scene_id": "scene0095_00",
+        "description": "This is the Apple monitor on the table at the end not near the door. If you face the table, it is the one on the left.",
+        "prediction": [
+            [
+                [
+                    4.201489448547363,
+                    2.595355987548828,
+                    0.9599158763885498
+                ],
+                [
+                    0.2402195930480957,
+                    0.527000904083252,
+                    0.43085020780563354
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "963a9c98-dfaa-4b49-aa2e-e6cadd4b9181",
+        "scene_id": "scene0095_00",
+        "description": "Opposite the room from the left whiteboard, there is a device for heating the room.",
+        "prediction": [
+            [
+                [
+                    9.265952110290527,
+                    2.676431894302368,
+                    0.6515815258026123
+                ],
+                [
+                    0.681549072265625,
+                    2.0242042541503906,
+                    1.088118314743042
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "69a5d616-2a6e-470b-8636-a7c010b97e05",
+        "scene_id": "scene0035_00",
+        "description": "This is a bed with a blue mattress next to a brown nightstand.",
+        "prediction": [
+            [
+                [
+                    1.3064478635787964,
+                    2.3807220458984375,
+                    0.4897944927215576
+                ],
+                [
+                    1.735556721687317,
+                    2.4880149364471436,
+                    0.9337753057479858
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "ebbbcde5-a9ef-4ab7-9be3-e9f997c3f914",
+        "scene_id": "scene0035_00",
+        "description": "This is a bed with a brown mattress next to a blue nightstand.",
+        "prediction": [
+            [
+                [
+                    1.3064478635787964,
+                    2.3807220458984375,
+                    0.4897944927215576
+                ],
+                [
+                    1.735556721687317,
+                    2.4880149364471436,
+                    0.9337753057479858
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "97981bfb-35c7-4fb0-b892-29b6e30dc623",
+        "scene_id": "scene0035_00",
+        "description": "The radiator is on the wall and under the window.",
+        "prediction": [
+            [
+                [
+                    2.748894214630127,
+                    0.8006082773208618,
+                    0.3539648950099945
+                ],
+                [
+                    0.8937883377075195,
+                    0.4041450023651123,
+                    0.6465606093406677
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "952d44b0-4677-42f9-a896-32e0e548e2c3",
+        "scene_id": "scene0035_00",
+        "description": "The radiator is the one on the wall but not under the window.",
+        "prediction": [
+            [
+                [
+                    2.748894214630127,
+                    0.8006082773208618,
+                    0.3539648950099945
+                ],
+                [
+                    0.8937883377075195,
+                    0.4041450023651123,
+                    0.6465606093406677
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "9d27355f-6a58-46c5-9c62-495bcc4bb0b6",
+        "scene_id": "scene0035_00",
+        "description": "Find the object with wheels.",
+        "prediction": [
+            [
+                [
+                    2.9408974647521973,
+                    2.210831642150879,
+                    0.4912119209766388
+                ],
+                [
+                    0.4400136470794678,
+                    0.6293247938156128,
+                    0.8905096650123596
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "7a48bfb9-a53e-45bc-8b89-ad031e39eb4b",
+        "scene_id": "scene0035_00",
+        "description": "This is the tallest wooden furniture in the room.",
+        "prediction": [
+            [
+                [
+                    3.501120090484619,
+                    1.6016820669174194,
+                    0.9052099585533142
+                ],
+                [
+                    0.8203647136688232,
+                    2.0756189823150635,
+                    1.7111443281173706
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "f7855ce4-7477-4864-aa8b-a5ad30456474",
+        "scene_id": "scene0208_00",
+        "description": "This is a hard place that you can sit on while reading books (not including the floor).",
+        "prediction": [
+            [
+                [
+                    4.175204753875732,
+                    3.1393487453460693,
+                    0.49239498376846313
+                ],
+                [
+                    1.3444411754608154,
+                    1.404231071472168,
+                    0.8340562582015991
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "033d1b12-016e-47a8-a806-0beb28949d26",
+        "scene_id": "scene0208_00",
+        "description": "This is a soft place that you can sit on while reading books (not including the floor).",
+        "prediction": [
+            [
+                [
+                    5.105193138122559,
+                    5.387451648712158,
+                    0.2630488872528076
+                ],
+                [
+                    0.3483281135559082,
+                    0.7716655731201172,
+                    0.3836812973022461
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "3cf09163-c14b-4ca0-9950-905e612c19ab",
+        "scene_id": "scene0208_00",
+        "description": "This is a relatively soft place that you can sit on while reading books.",
+        "prediction": [
+            [
+                [
+                    4.175204753875732,
+                    3.1393487453460693,
+                    0.49239498376846313
+                ],
+                [
+                    1.3444411754608154,
+                    1.404231071472168,
+                    0.8340562582015991
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "58daeee8-371d-4502-b4b4-6539cffaed99",
+        "scene_id": "scene0208_00",
+        "description": "Look for a wooden furniture in the room that is mostly empty.",
+        "prediction": [
+            [
+                [
+                    7.552372932434082,
+                    6.431886196136475,
+                    0.6569079756736755
+                ],
+                [
+                    2.036022186279297,
+                    4.308978080749512,
+                    1.0792347192764282
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "c6e71112-8a69-4691-b43a-564524cf5285",
+        "scene_id": "scene0208_00",
+        "description": "On the shelf along the wall is a collection of books. The shelf runs along the green strip of carpet, and the books are in the second column from the right and the third row from the bottom.",
+        "prediction": [
+            [
+                [
+                    5.626445293426514,
+                    8.798576354980469,
+                    1.807380199432373
+                ],
+                [
+                    4.739253044128418,
+                    1.057835578918457,
+                    2.10506534576416
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "05d10f32-0585-4614-be7b-251e75351f31",
+        "scene_id": "scene0208_00",
+        "description": "There is a shelf in the corner of the room that is near the green and black lines of carpet. If facing the corner, the shelf on the left has a set of books on the 2nd to bottom row, in the column closest to the corner. Please identify those books.",
+        "prediction": [
+            [
+                [
+                    3.0445690155029297,
+                    7.76728630065918,
+                    1.1648555994033813
+                ],
+                [
+                    1.0361039638519287,
+                    2.4185519218444824,
+                    2.169989824295044
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "214cedf4-8dd4-4ee9-9d8f-567a5f3dc232",
+        "scene_id": "scene0208_00",
+        "description": "This is the display table of books farthest from the green carpet.",
+        "prediction": [
+            [
+                [
+                    4.175204753875732,
+                    3.1393487453460693,
+                    0.49239498376846313
+                ],
+                [
+                    1.3444411754608154,
+                    1.404231071472168,
+                    0.8340562582015991
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "0b67e9be-2daa-4683-978d-281aec3b8c0c",
+        "scene_id": "scene0208_00",
+        "description": "A book called \"The Food Lab\" can be found on this shelf of interest.",
+        "prediction": [
+            [
+                [
+                    5.7524285316467285,
+                    6.045777797698975,
+                    0.9463117122650146
+                ],
+                [
+                    1.4497909545898438,
+                    2.6645517349243164,
+                    1.84696364402771
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "9d28909c-2ded-4561-a1b8-d08403427dfd",
+        "scene_id": "scene0208_00",
+        "description": "This shelf displays a book which has \"Magical Creatures\" on it.",
+        "prediction": [
+            [
+                [
+                    5.7524285316467285,
+                    6.045777797698975,
+                    0.9463117122650146
+                ],
+                [
+                    1.4497909545898438,
+                    2.6645517349243164,
+                    1.84696364402771
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "687899a6-7726-4e88-a15d-1ab94f5d7c6a",
+        "scene_id": "scene0208_00",
+        "description": "The minimalistic book display has five wheels and can rotate. This one is at the end of a row of other displays on the lighter gray carpet.",
+        "prediction": [
+            [
+                [
+                    3.0445690155029297,
+                    7.76728630065918,
+                    1.1648555994033813
+                ],
+                [
+                    1.0361039638519287,
+                    2.4185519218444824,
+                    2.169989824295044
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "91fec815-6222-4de8-b8ee-fcf9a23b0121",
+        "scene_id": "scene0208_00",
+        "description": "The minimalistic book display has seven wheels and can rotate. This one is at the end of a row of other displays on the lighter gray carpet.",
+        "prediction": [
+            [
+                [
+                    3.0445690155029297,
+                    7.76728630065918,
+                    1.1648555994033813
+                ],
+                [
+                    1.0361039638519287,
+                    2.4185519218444824,
+                    2.169989824295044
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "6fe1ace2-1105-4d41-b19c-fcc57f52843a",
+        "scene_id": "scene0208_00",
+        "description": "This object has a kit on it with the text, \"paper airplanes\".",
+        "prediction": [
+            [
+                [
+                    5.300530433654785,
+                    5.079342365264893,
+                    1.416771411895752
+                ],
+                [
+                    6.609596252441406,
+                    8.442811012268066,
+                    2.893585205078125
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "0db79854-87f2-4b4f-8192-a75fc077dd2b",
+        "scene_id": "scene0208_00",
+        "description": "This shelf has a section header labeling the books as for \"children\".",
+        "prediction": [
+            [
+                [
+                    4.158174991607666,
+                    6.647857666015625,
+                    0.9517916440963745
+                ],
+                [
+                    1.5117731094360352,
+                    2.6167263984680176,
+                    1.843167781829834
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "91f9a46d-db4e-482a-ada5-c8f36aad0a48",
+        "scene_id": "scene0208_00",
+        "description": "This shelf is farthest from the green floor.",
+        "prediction": [
+            [
+                [
+                    3.3830654621124268,
+                    3.5495643615722656,
+                    1.184636116027832
+                ],
+                [
+                    2.7925572395324707,
+                    1.5168111324310303,
+                    0.8804627656936646
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "de8ad892-a872-493d-adc9-4a4675c4af72",
+        "scene_id": "scene0208_00",
+        "description": "This fancy rotating display is the one nearest to the orange carpet.",
+        "prediction": [
+            [
+                [
+                    3.4443116188049316,
+                    5.300553321838379,
+                    0.8757430911064148
+                ],
+                [
+                    0.47388720512390137,
+                    0.44586801528930664,
+                    1.6532608270645142
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "7d6d6c02-6140-4dd2-b818-97f5aa1e63dd",
+        "scene_id": "scene0088_00",
+        "description": "The chair resides at the end of the table closest to the trash can.",
+        "prediction": [
+            [
+                [
+                    1.663254737854004,
+                    4.2324724197387695,
+                    0.5013434290885925
+                ],
+                [
+                    0.627213716506958,
+                    0.9698529243469238,
+                    0.9375824928283691
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "82104c89-0d47-465d-9642-264a0b54df70",
+        "scene_id": "scene0088_00",
+        "description": "Facing the standalone whiteboard, grab the closest chair right behind you.",
+        "prediction": [
+            [
+                [
+                    0.7543524503707886,
+                    2.4636759757995605,
+                    0.703764796257019
+                ],
+                [
+                    0.4806860089302063,
+                    0.6754109859466553,
+                    0.5327799916267395
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "9c1edc05-e8bb-40dc-ac84-3f41c5fd24d1",
+        "scene_id": "scene0088_00",
+        "description": "From the door, this is the middle chair on the closest long side of the table in the center of the room.",
+        "prediction": [
+            [
+                [
+                    0.7543524503707886,
+                    2.4636759757995605,
+                    0.703764796257019
+                ],
+                [
+                    0.4806860089302063,
+                    0.6754109859466553,
+                    0.5327799916267395
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "36088e82-52d4-4515-b059-10bc4800593f",
+        "scene_id": "scene0088_00",
+        "description": "This is the chair at one end of the table, farthest from the standalone whiteboard. If there are multiple chairs near the end, it is the one closest to the table.",
+        "prediction": [
+            [
+                [
+                    2.8110768795013428,
+                    3.6355905532836914,
+                    0.4905507564544678
+                ],
+                [
+                    0.6136856079101562,
+                    0.6658294200897217,
+                    0.9315921068191528
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "cac3e545-80c3-4ad2-a5ae-c55cd9db7594",
+        "scene_id": "scene0088_00",
+        "description": "From the door, this is the third chair from the left on the closest long side of the table in the center of the room.",
+        "prediction": [
+            [
+                [
+                    0.7543524503707886,
+                    2.4636759757995605,
+                    0.703764796257019
+                ],
+                [
+                    0.4806860089302063,
+                    0.6754109859466553,
+                    0.5327799916267395
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "387cfebc-fc1f-4def-808c-dd38032b11f1",
+        "scene_id": "scene0256_00",
+        "description": "In the stack of three boxes, this is the third one from the bottom.",
+        "prediction": [
+            [
+                [
+                    1.5719220638275146,
+                    5.237735748291016,
+                    0.674241840839386
+                ],
+                [
+                    0.11841249465942383,
+                    0.15043210983276367,
+                    1.1754573583602905
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "6722c330-f173-48b3-b48f-ea5bfbb3238a",
+        "scene_id": "scene0256_00",
+        "description": "Against the wall, there is a rack, a lamp, and a stack. From the left wall, find the second arrangement of objects.",
+        "prediction": [
+            [
+                [
+                    1.810030460357666,
+                    2.320826530456543,
+                    0.4142322540283203
+                ],
+                [
+                    0.6451559066772461,
+                    0.5575833320617676,
+                    0.7704623937606812
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "14777ed6-9a63-4948-8825-47385b37d7ae",
+        "scene_id": "scene0256_00",
+        "description": "Against the wall, there is a rack, a lamp, and a stack. Find the tallest of the three.",
+        "prediction": [
+            [
+                [
+                    1.1243321895599365,
+                    3.654984951019287,
+                    1.9988555908203125
+                ],
+                [
+                    0.36194002628326416,
+                    0.3487246036529541,
+                    0.2781175374984741
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "42ab4274-510f-4b43-817f-3a083c890eb3",
+        "scene_id": "scene0256_00",
+        "description": "This is the set of plastic storage units far from the table.",
+        "prediction": [
+            [
+                [
+                    0.5643644332885742,
+                    4.907997131347656,
+                    0.8525850772857666
+                ],
+                [
+                    1.090606451034546,
+                    0.6804442405700684,
+                    1.6284031867980957
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "6b4d2638-0911-4e58-8fee-09b2e91ce1f7",
+        "scene_id": "scene0256_00",
+        "description": "This is the set of plastic storage units near the table.",
+        "prediction": [
+            [
+                [
+                    2.201049327850342,
+                    3.9670872688293457,
+                    0.4449101686477661
+                ],
+                [
+                    0.506162166595459,
+                    0.5803356170654297,
+                    0.8311333656311035
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "b9cfda2f-1579-434b-bb7f-e53a7db0690f",
+        "scene_id": "scene0256_00",
+        "description": "This is the set of three storage units far from the clothing rack.",
+        "prediction": [
+            [
+                [
+                    0.5643644332885742,
+                    4.907997131347656,
+                    0.8525850772857666
+                ],
+                [
+                    1.090606451034546,
+                    0.6804442405700684,
+                    1.6284031867980957
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "4e932238-ad30-4e26-bd30-9f770ecd5af1",
+        "scene_id": "scene0256_00",
+        "description": "Where is the first box from the top in the stack?",
+        "prediction": [
+            [
+                [
+                    1.1742949485778809,
+                    5.156245231628418,
+                    0.23704864084720612
+                ],
+                [
+                    0.4876183271408081,
+                    0.47240734100341797,
+                    0.3961394131183624
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "3ea810e5-d7e6-4681-9105-3a0513f54a98",
+        "scene_id": "scene0084_00",
+        "description": "Find the object labeled \"caution.\"",
+        "prediction": [
+            [
+                [
+                    2.4494576454162598,
+                    1.0281264781951904,
+                    0.3223172724246979
+                ],
+                [
+                    0.13264870643615723,
+                    0.32877016067504883,
+                    0.3401285409927368
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "82c6386f-cad1-4e36-b3b3-6b9aff266343",
+        "scene_id": "scene0084_00",
+        "description": "The trash can is the one near the sink and directly under the hole in the counter.",
+        "prediction": [
+            [
+                [
+                    2.6028528213500977,
+                    3.590090274810791,
+                    0.2229624092578888
+                ],
+                [
+                    0.37070536613464355,
+                    0.27371859550476074,
+                    0.4076051115989685
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "08d5fdc7-d769-4362-b391-d2f17d092b9b",
+        "scene_id": "scene0084_00",
+        "description": "The trash can is the one near the sink but not directly under the hole in the counter.",
+        "prediction": [
+            [
+                [
+                    2.6028528213500977,
+                    3.590090274810791,
+                    0.2229624092578888
+                ],
+                [
+                    0.37070536613464355,
+                    0.27371859550476074,
+                    0.4076051115989685
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "6bc531c9-625a-42f0-a460-889746be172e",
+        "scene_id": "scene0084_00",
+        "description": "This is the trash can in the bathroom. It is colored white.",
+        "prediction": [
+            [
+                [
+                    2.499816656112671,
+                    4.528641223907471,
+                    0.3742384612560272
+                ],
+                [
+                    0.29036903381347656,
+                    0.345184326171875,
+                    0.6617113947868347
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "54144272-9037-4418-a6f4-da86847cf726",
+        "scene_id": "scene0084_00",
+        "description": "This is the unopened toilet paper roll that is not stacked with any other rolls.",
+        "prediction": [
+            [
+                [
+                    2.7763195037841797,
+                    4.920665264129639,
+                    1.210080862045288
+                ],
+                [
+                    0.14294791221618652,
+                    0.1471233367919922,
+                    0.16634023189544678
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "8067f10e-128c-4f8b-9d8a-a12072eab817",
+        "scene_id": "scene0084_00",
+        "description": "This is the object on the counter behind the jacket and surrounded by toilet paper rolls on one side and the sink on the other.",
+        "prediction": [
+            [
+                [
+                    2.518402099609375,
+                    1.4437694549560547,
+                    0.8096581697463989
+                ],
+                [
+                    0.067901611328125,
+                    0.40612852573394775,
+                    0.3059590458869934
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "6980f1d3-7cb6-4ffd-b158-bbaf4d80a3e4",
+        "scene_id": "scene0084_00",
+        "description": "When facing the radiator, the metal rail is directly on your left.",
+        "prediction": [
+            [
+                [
+                    2.5242981910705566,
+                    0.920927107334137,
+                    0.9938008785247803
+                ],
+                [
+                    0.19468307495117188,
+                    1.5830079317092896,
+                    1.9266836643218994
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "8a27344d-f62c-4cbe-8860-757600e368f9",
+        "scene_id": "scene0084_00",
+        "description": "This is the small cylindrical object near the toilet.",
+        "prediction": [
+            [
+                [
+                    1.6796773672103882,
+                    0.2220515012741089,
+                    0.600927472114563
+                ],
+                [
+                    0.1513209342956543,
+                    0.13000814616680145,
+                    0.11557972431182861
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "be1851db-a9ca-497a-b169-025866aec528",
+        "scene_id": "scene0084_00",
+        "description": "To the left of the sink is a set of paper towel rolls.",
+        "prediction": [
+            [
+                [
+                    2.575697183609009,
+                    3.875694751739502,
+                    0.6864395141601562
+                ],
+                [
+                    0.418978214263916,
+                    0.4988901615142822,
+                    0.5028488636016846
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "68a92172-7e12-4c00-86f7-ec4def10f834",
+        "scene_id": "scene0084_00",
+        "description": "Find the handle of the door to leave the bathroom.",
+        "prediction": [
+            [
+                [
+                    0.8605901002883911,
+                    5.089208126068115,
+                    0.9580773115158081
+                ],
+                [
+                    0.7971258759498596,
+                    0.08751773834228516,
+                    1.0241546630859375
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "fb0d4c3a-1e6d-4080-8d7e-cc14dbe8e995",
+        "scene_id": "scene0084_00",
+        "description": "Please refill the industrial soap dispenser mounted on the wall.",
+        "prediction": [
+            [
+                [
+                    2.309781789779663,
+                    3.492107391357422,
+                    1.134757399559021
+                ],
+                [
+                    0.16889238357543945,
+                    0.1400437355041504,
+                    0.2780027985572815
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "77c22153-89f6-4760-b4f9-d66dfe01f096",
+        "scene_id": "scene0084_00",
+        "description": "This is the trash can farthest from the sink.",
+        "prediction": [
+            [
+                [
+                    2.499816656112671,
+                    4.528641223907471,
+                    0.3742384612560272
+                ],
+                [
+                    0.29036903381347656,
+                    0.345184326171875,
+                    0.6617113947868347
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "abe700be-339e-4f6b-bf98-bdc6a3380c1b",
+        "scene_id": "scene0169_00",
+        "description": "Facing away from the whiteboard and ignoring the swivel chair, this is the fourth chair from the left along the wall.",
+        "prediction": [
+            [
+                [
+                    6.475493907928467,
+                    0.45419251918792725,
+                    0.487594872713089
+                ],
+                [
+                    0.8620901107788086,
+                    0.7924929857254028,
+                    0.8605542778968811
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "98d8ea6b-157a-4567-a5c3-6ecd1e7c9262",
+        "scene_id": "scene0169_00",
+        "description": "This seat is directly to the left of the red chair in the conference room.",
+        "prediction": [
+            [
+                [
+                    6.595294952392578,
+                    3.4276938438415527,
+                    0.529161810874939
+                ],
+                [
+                    0.8325896263122559,
+                    0.7119462490081787,
+                    0.8036037683486938
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "764d1e56-3570-4d96-bdd6-137421cbd4a6",
+        "scene_id": "scene0169_00",
+        "description": "This is the chair with four wheels somewhat near the corner opposite from that with the blue-and-yellow picture.",
+        "prediction": [
+            [
+                [
+                    3.802579879760742,
+                    6.581153869628906,
+                    0.7477332353591919
+                ],
+                [
+                    0.5855276584625244,
+                    0.5353565216064453,
+                    0.5489086508750916
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "dd2f2197-82eb-4789-ada4-43094ce7aa64",
+        "scene_id": "scene0169_00",
+        "description": "This is the comfortable white chair directly to the left of the red chair.",
+        "prediction": [
+            [
+                [
+                    6.475493907928467,
+                    0.45419251918792725,
+                    0.487594872713089
+                ],
+                [
+                    0.8620901107788086,
+                    0.7924929857254028,
+                    0.8605542778968811
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "5648becc-1979-4a2d-8394-b05a0bcb62a0",
+        "scene_id": "scene0169_00",
+        "description": "Next to two rolling chairs with 5 wheels is a cabinet.",
+        "prediction": [
+            [
+                [
+                    2.082265853881836,
+                    5.138698577880859,
+                    0.6150626540184021
+                ],
+                [
+                    0.6147671937942505,
+                    0.6509184837341309,
+                    0.9478176832199097
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "5d869e85-492d-4dd8-a6a6-c5984b7254d0",
+        "scene_id": "scene0169_00",
+        "description": "This is the lengthwise shorter of the two storage units in the room.",
+        "prediction": [
+            [
+                [
+                    4.540282249450684,
+                    3.3356077671051025,
+                    0.47331035137176514
+                ],
+                [
+                    0.5815610885620117,
+                    0.614534854888916,
+                    0.8371700048446655
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "63dbaefd-041e-4f7b-8b5c-640b7568ff37",
+        "scene_id": "scene0169_00",
+        "description": "There is a row of black rolling chairs along the wall. Pick the one furthest to the left when facing them.",
+        "prediction": [
+            [
+                [
+                    5.904278755187988,
+                    1.2165851593017578,
+                    0.508313775062561
+                ],
+                [
+                    0.7099747657775879,
+                    0.7084175944328308,
+                    0.8514789938926697
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "2721d802-6f64-4bba-8f48-8358188c0f92",
+        "scene_id": "scene0169_00",
+        "description": "There are two prominently red objects in the room. This is the one farthest from the wall.",
+        "prediction": [
+            [
+                [
+                    6.595294952392578,
+                    3.4276938438415527,
+                    0.529161810874939
+                ],
+                [
+                    0.8325896263122559,
+                    0.7119462490081787,
+                    0.8036037683486938
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "7be7f627-2eb3-4673-af9b-f5b97deb7266",
+        "scene_id": "scene0169_00",
+        "description": "There are two prominently red objects in the room. This is the one not next to the wall.",
+        "prediction": [
+            [
+                [
+                    6.475493907928467,
+                    0.45419251918792725,
+                    0.487594872713089
+                ],
+                [
+                    0.8620901107788086,
+                    0.7924929857254028,
+                    0.8605542778968811
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "4eb15fda-31b7-4922-abdb-f61d7869e8bb",
+        "scene_id": "scene0169_00",
+        "description": "In the center of the room is a hexagonal conference table for meetings.",
+        "prediction": [
+            [
+                [
+                    5.112389087677002,
+                    3.8154101371765137,
+                    0.44541412591934204
+                ],
+                [
+                    3.494094133377075,
+                    2.7510464191436768,
+                    0.7583557367324829
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "0f327ee8-9d72-4e5b-afe4-0357930a5a7f",
+        "scene_id": "scene0169_00",
+        "description": "In the center of the room is a rectangular conference table for meetings.",
+        "prediction": [
+            [
+                [
+                    5.112389087677002,
+                    3.8154101371765137,
+                    0.44541412591934204
+                ],
+                [
+                    3.494094133377075,
+                    2.7510464191436768,
+                    0.7583557367324829
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "090e6bd9-510d-4a9a-bf83-91957667f863",
+        "scene_id": "scene0169_00",
+        "description": "In the center of the room is a wooden conference table for meetings.",
+        "prediction": [
+            [
+                [
+                    5.112389087677002,
+                    3.8154101371765137,
+                    0.44541412591934204
+                ],
+                [
+                    3.494094133377075,
+                    2.7510464191436768,
+                    0.7583557367324829
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "c58de479-a982-4c82-8894-6a1a7ffda0db",
+        "scene_id": "scene0169_00",
+        "description": "In the center of the room is a metal-top conference table for meetings.",
+        "prediction": [
+            [
+                [
+                    5.112389087677002,
+                    3.8154101371765137,
+                    0.44541412591934204
+                ],
+                [
+                    3.494094133377075,
+                    2.7510464191436768,
+                    0.7583557367324829
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "7997234f-37b6-453f-abdd-1b22ab7ec230",
+        "scene_id": "scene0139_00",
+        "description": "This is the orange object labeled \"bounce\" on one of the washing machines.",
+        "prediction": [
+            [
+                [
+                    0.3067049980163574,
+                    0.6688703298568726,
+                    0.8698840141296387
+                ],
+                [
+                    0.4873460829257965,
+                    0.6126390099525452,
+                    0.2319318652153015
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "373e0acb-f476-4911-ae7b-07a13b465fe9",
+        "scene_id": "scene0139_00",
+        "description": "This is the machine with the words \"wash\" on the front. It is the one not stacked with another machine and left of the two remaining candidate machines.",
+        "prediction": [
+            [
+                [
+                    1.3264052867889404,
+                    0.8466179966926575,
+                    0.5890170335769653
+                ],
+                [
+                    0.7670339941978455,
+                    0.8011792898178101,
+                    1.1127965450286865
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "138ee818-cadb-4556-a4d0-8ca059c25562",
+        "scene_id": "scene0139_00",
+        "description": "The orange container is used to hold soap for cleaning clothes.",
+        "prediction": [
+            [
+                [
+                    0.6216632127761841,
+                    1.4233739376068115,
+                    0.23699815571308136
+                ],
+                [
+                    0.5527173280715942,
+                    0.7916641235351562,
+                    0.4158720076084137
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "d437e291-5e90-4615-b9ff-2783bbcfef8b",
+        "scene_id": "scene0139_00",
+        "description": "This is the orange plastic container on top of the washing machine.",
+        "prediction": [
+            [
+                [
+                    0.6216632127761841,
+                    1.4233739376068115,
+                    0.23699815571308136
+                ],
+                [
+                    0.5527173280715942,
+                    0.7916641235351562,
+                    0.4158720076084137
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "73ee7a8b-f780-47ab-a54e-6705c23ff431",
+        "scene_id": "scene0139_00",
+        "description": "This is the orange cardboard container on top of the washing machine.",
+        "prediction": [
+            [
+                [
+                    0.3067049980163574,
+                    0.6688703298568726,
+                    0.8698840141296387
+                ],
+                [
+                    0.4873460829257965,
+                    0.6126390099525452,
+                    0.2319318652153015
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "367e4f81-0236-4d9e-91cf-014aea8d0075",
+        "scene_id": "scene0139_00",
+        "description": "There is a row of washing machines in the room. It is the one farthest from the sink.",
+        "prediction": [
+            [
+                [
+                    3.1880970001220703,
+                    1.2182018756866455,
+                    0.9011862277984619
+                ],
+                [
+                    0.18470263481140137,
+                    1.0909037590026855,
+                    1.6731681823730469
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "01f6bc59-814b-4832-8092-fe18c5340b79",
+        "scene_id": "scene0139_00",
+        "description": "The box is under the table.",
+        "prediction": [
+            [
+                [
+                    0.6216632127761841,
+                    1.4233739376068115,
+                    0.23699815571308136
+                ],
+                [
+                    0.5527173280715942,
+                    0.7916641235351562,
+                    0.4158720076084137
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "aacf3459-a20d-478a-9baa-c68c2fc908ff",
+        "scene_id": "scene0139_00",
+        "description": "The table is under the box.",
+        "prediction": [
+            [
+                [
+                    0.5899252891540527,
+                    1.5580134391784668,
+                    0.43104982376098633
+                ],
+                [
+                    0.8967670798301697,
+                    1.2404464483261108,
+                    0.8060110807418823
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "f8f973ac-59c0-4991-a2b1-72e51e0343b2",
+        "scene_id": "scene0131_00",
+        "description": "Find the cluster of three chairs in the far corner. Pick the one which is brown and facing the corner of the desk.",
+        "prediction": [
+            [
+                [
+                    5.082677364349365,
+                    4.50320291519165,
+                    0.5029326677322388
+                ],
+                [
+                    0.7646808624267578,
+                    0.6331253051757812,
+                    0.9421714544296265
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "121d63ef-8189-429a-99a8-46e2b039d882",
+        "scene_id": "scene0131_00",
+        "description": "The chair is in between the shelf and a monitor and is the closest one to the large painting of a white building.",
+        "prediction": [
+            [
+                [
+                    5.9880499839782715,
+                    4.319237232208252,
+                    0.4488599896430969
+                ],
+                [
+                    0.5822086334228516,
+                    0.6666672229766846,
+                    0.8412474393844604
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "fdbb0c9c-0ae1-4bad-a84d-a711b2b6590b",
+        "scene_id": "scene0131_00",
+        "description": "This pile of keyboards is above a set of sleek office drawers.",
+        "prediction": [
+            [
+                [
+                    2.637927532196045,
+                    0.8231132626533508,
+                    1.1797871589660645
+                ],
+                [
+                    1.5568597316741943,
+                    1.0077799558639526,
+                    0.46893346309661865
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "2bfedcac-dbf3-4340-a19b-b140881e2291",
+        "scene_id": "scene0131_00",
+        "description": "Find the food storage which does not have a green, rectangular object on top.",
+        "prediction": [
+            [
+                [
+                    2.782618999481201,
+                    1.0541369915008545,
+                    0.4365178644657135
+                ],
+                [
+                    0.49457812309265137,
+                    0.3863639831542969,
+                    0.6112522482872009
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "554541ca-6c6a-4fe1-83f7-f1405d808b30",
+        "scene_id": "scene0131_00",
+        "description": "This circular object is supported by a white mini fridge.",
+        "prediction": [
+            [
+                [
+                    6.679696083068848,
+                    4.034839630126953,
+                    0.49613043665885925
+                ],
+                [
+                    0.639406681060791,
+                    0.6414868831634521,
+                    0.899031937122345
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "e152c7c4-b013-4a34-b9b3-5c6f3f42dac4",
+        "scene_id": "scene0131_00",
+        "description": "This circular object is supported by a black mini fridge.",
+        "prediction": [
+            [
+                [
+                    6.679696083068848,
+                    4.034839630126953,
+                    0.49613043665885925
+                ],
+                [
+                    0.639406681060791,
+                    0.6414868831634521,
+                    0.899031937122345
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "04e81927-8c58-4b6b-9817-7f6594620078",
+        "scene_id": "scene0203_00",
+        "description": "This is the quaint, patterned couch with brightly colored pillows on top. It is adjacent to a stack of blankets.",
+        "prediction": [
+            [
+                [
+                    4.0772385597229,
+                    3.4828004837036133,
+                    0.43721115589141846
+                ],
+                [
+                    1.4063854217529297,
+                    2.2483294010162354,
+                    0.8286606073379517
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "c7b45978-d297-416e-8122-d171473b01fc",
+        "scene_id": "scene0203_00",
+        "description": "Where is the couch that is farthest from the largest bookshelf?",
+        "prediction": [
+            [
+                [
+                    0.93253493309021,
+                    2.0561747550964355,
+                    0.5766453146934509
+                ],
+                [
+                    0.5797600746154785,
+                    0.625247597694397,
+                    0.4622960090637207
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "7b79b8a3-9234-4812-9abf-d179bf1d9139",
+        "scene_id": "scene0203_00",
+        "description": "This is the object labeled \"legion.\" It is on a shelf.",
+        "prediction": [
+            [
+                [
+                    1.8613500595092773,
+                    5.912212371826172,
+                    1.2070382833480835
+                ],
+                [
+                    0.5685604810714722,
+                    1.087738037109375,
+                    1.9647109508514404
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "82924a84-3311-4f23-aabb-6e8ccdd26303",
+        "scene_id": "scene0203_00",
+        "description": "The board game, \"Codenames,\" is on this thing.",
+        "prediction": [
+            [
+                [
+                    4.010015487670898,
+                    0.4784184694290161,
+                    1.4571952819824219
+                ],
+                [
+                    0.9925594329833984,
+                    0.39781948924064636,
+                    1.8864765167236328
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "5f5c5f75-bf77-4ec6-a404-409d9c61517c",
+        "scene_id": "scene0203_00",
+        "description": "In the room is a medium-size paper bag.",
+        "prediction": [
+            [
+                [
+                    3.300452709197998,
+                    2.5598649978637695,
+                    0.2438223958015442
+                ],
+                [
+                    0.3756678104400635,
+                    0.3975546360015869,
+                    0.4843539595603943
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "bfc781e5-e461-4c75-9212-56f4598b3e57",
+        "scene_id": "scene0203_00",
+        "description": "This is the bag not on the rug. It is made of a firm cloth material.",
+        "prediction": [
+            [
+                [
+                    3.300452709197998,
+                    2.5598649978637695,
+                    0.2438223958015442
+                ],
+                [
+                    0.3756678104400635,
+                    0.3975546360015869,
+                    0.4843539595603943
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "8e4ea21a-f150-425b-be1f-b829433b56a4",
+        "scene_id": "scene0203_00",
+        "description": "This is a small, circular object on which you could place other objects. There are no couches facing it.",
+        "prediction": [
+            [
+                [
+                    3.6299257278442383,
+                    5.363156795501709,
+                    0.7713671922683716
+                ],
+                [
+                    0.7760264873504639,
+                    0.7063522338867188,
+                    0.18739086389541626
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "2f3c42d4-d5b6-4dce-9fab-a3c5f5ef6d67",
+        "scene_id": "scene0203_00",
+        "description": "This modern-looking object is in the center of the room. It is rectangular and has on top a book with a picture of a ship on the cover.",
+        "prediction": [
+            [
+                [
+                    3.331484317779541,
+                    3.5655386447906494,
+                    0.21748675405979156
+                ],
+                [
+                    5.634951591491699,
+                    6.399783611297607,
+                    0.4391176402568817
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "dfdae4c0-c105-4b4c-bc71-8d8b1d4c39fd",
+        "scene_id": "scene0203_00",
+        "description": "In the corner of the room is a pile of 3 bedding items. Pick the middle one in the stack.",
+        "prediction": [
+            [
+                [
+                    0.7185716032981873,
+                    3.4332351684570312,
+                    1.5016413927078247
+                ],
+                [
+                    1.242914080619812,
+                    3.8561296463012695,
+                    2.571014642715454
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "766e54a9-6a07-4c02-be2a-12291abad88f",
+        "scene_id": "scene0203_00",
+        "description": "This is a pair of shoes not on the shoe rack. They are lying on their side.",
+        "prediction": [
+            [
+                [
+                    5.481536865234375,
+                    1.51194167137146,
+                    0.4208703935146332
+                ],
+                [
+                    0.5450611114501953,
+                    0.7905153036117554,
+                    0.6150009036064148
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "9b2bdd84-c6fa-40bf-8543-cde6285b1b68",
+        "scene_id": "scene0203_00",
+        "description": "This tissue box is on a shelf. It has the name, \"Shakespeare,\" on it.",
+        "prediction": [
+            [
+                [
+                    2.6492865085601807,
+                    1.1751288175582886,
+                    0.4317551255226135
+                ],
+                [
+                    0.34552621841430664,
+                    0.3116781711578369,
+                    0.27544423937797546
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "1ab3a8be-b7ad-42f7-8705-91bb2f11b770",
+        "scene_id": "scene0203_00",
+        "description": "This is an open plastic box on the floor.",
+        "prediction": [
+            [
+                [
+                    2.8036301136016846,
+                    3.9715213775634766,
+                    0.08791745454072952
+                ],
+                [
+                    0.2395954132080078,
+                    0.8324985504150391,
+                    0.12932510673999786
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "da5eb63a-7f87-4fa2-8564-78ac8d527dab",
+        "scene_id": "scene0203_00",
+        "description": "This shelf is the smallest in the room. It has a wooden texture.",
+        "prediction": [
+            [
+                [
+                    3.67226505279541,
+                    2.3695411682128906,
+                    0.41748401522636414
+                ],
+                [
+                    0.845876932144165,
+                    0.6356556415557861,
+                    0.8149848580360413
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "46dd391e-ba59-475b-97d8-8640c22a41b0",
+        "scene_id": "scene0203_00",
+        "description": "The large wooden structure is the farthest such one from the door.",
+        "prediction": [
+            [
+                [
+                    1.5793609619140625,
+                    5.621342658996582,
+                    1.240258812904358
+                ],
+                [
+                    1.1652741432189941,
+                    1.0600152015686035,
+                    2.0811750888824463
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "a19ce18f-c839-45d7-9d58-b62dbdd00bbe",
+        "scene_id": "scene0251_00",
+        "description": "If facing the wall with the poster with the words, \"SIGGRAPH\", get all of the tables on your right.",
+        "prediction": [
+            [
+                [
+                    5.846098899841309,
+                    3.6619067192077637,
+                    1.117823600769043
+                ],
+                [
+                    3.5849385261535645,
+                    3.0029420852661133,
+                    1.8225644826889038
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "a4149c40-0a61-41ec-a99b-741e39bc4d30",
+        "scene_id": "scene0251_00",
+        "description": "These are the fullest trash cans far from the two chairs.",
+        "prediction": [
+            [
+                [
+                    0.2361706644296646,
+                    3.1097183227539062,
+                    1.4131903648376465
+                ],
+                [
+                    0.4691675007343292,
+                    0.431368350982666,
+                    0.7886587381362915
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "4b6aae99-0f83-4faa-a226-cc4ffb15b197",
+        "scene_id": "scene0251_00",
+        "description": "Grab the trash cans near the wall with the number, \"200\" written on one of its posters.",
+        "prediction": [
+            [
+                [
+                    0.2361706644296646,
+                    3.1097183227539062,
+                    1.4131903648376465
+                ],
+                [
+                    0.4691675007343292,
+                    0.431368350982666,
+                    0.7886587381362915
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "d1a490fa-c0c3-42d2-9d20-8472c9f040a4",
+        "scene_id": "scene0251_00",
+        "description": "Grab the trash cans far from the wall with the number, \"200\" written on one of its posters.",
+        "prediction": [
+            [
+                [
+                    0.2361706644296646,
+                    3.1097183227539062,
+                    1.4131903648376465
+                ],
+                [
+                    0.4691675007343292,
+                    0.431368350982666,
+                    0.7886587381362915
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "a7a94852-c6ed-4e80-8776-2452afe81134",
+        "scene_id": "scene0251_00",
+        "description": "These are the containers labeled \"cans\".",
+        "prediction": [
+            [
+                [
+                    0.8135479092597961,
+                    3.5515458583831787,
+                    1.3400853872299194
+                ],
+                [
+                    0.4391697645187378,
+                    0.4407978057861328,
+                    0.7583882808685303
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "f698557c-ebba-40ee-af00-e2e193833735",
+        "scene_id": "scene0251_00",
+        "description": "If facing the semicircular table, this is the simple, wooden chair on the right.",
+        "prediction": [
+            [
+                [
+                    4.920587539672852,
+                    3.750991106033325,
+                    0.9737380743026733
+                ],
+                [
+                    0.7753744125366211,
+                    0.6753239631652832,
+                    0.871928870677948
+                ]
+            ]
+        ]
+    },
+    {
+        "id": "704170cf-c717-4e29-b530-2c25ff8fda8f",
+        "scene_id": "scene0251_00",
+        "description": "If facing the semicircular table, this is the industrial, wooden chair on the right.",
+        "prediction": [
+            [
+                [
+                    4.920587539672852,
+                    3.750991106033325,
+                    0.9737380743026733
+                ],
+                [
+                    0.7753744125366211,
+                    0.6753239631652832,
+                    0.871928870677948
+                ]
+            ]
+        ]
+    }
+]

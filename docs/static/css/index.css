@@ -1,0 +1,297 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+
+.footer .icon-link {
+    font-size: 25px;
+    color: #000;
+}
+
+.link-block a {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.dnerf {
+  font-variant: small-caps;
+}
+
+
+.teaser .hero-body {
+  padding-top: 0;
+  padding-bottom: 3rem;
+}
+
+.teaser {
+  font-family: 'Google Sans', sans-serif;
+}
+
+h4 {
+  margin-top: 24px;
+}
+
+.publication-title {
+}
+
+.publication-banner {
+  max-height: parent;
+
+}
+
+.publication-banner video {
+  position: relative;
+  left: auto;
+  top: auto;
+  transform: none;
+  object-fit: fit;
+}
+
+.publication-header .hero-body {
+}
+
+.publication-title {
+    font-family: 'Google Sans', sans-serif;
+}
+
+.publication-authors {
+    font-family: 'Google Sans', sans-serif;
+}
+
+.publication-venue {
+    color: #555;
+    width: fit-content;
+    font-weight: bold;
+}
+
+.publication-awards {
+    color: #ff3860;
+    width: fit-content;
+    font-weight: bolder;
+}
+
+.publication-authors {
+}
+
+.publication-authors a {
+   color: hsl(204, 86%, 53%) !important;
+}
+
+.publication-authors a:hover {
+    text-decoration: underline;
+}
+
+.author-block {
+  display: inline-block;
+}
+
+.publication-banner img {
+}
+
+.publication-authors {
+  /*color: #4286f4;*/
+}
+
+.publication-video {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+
+    overflow: hidden;
+    border-radius: 10px !important;
+}
+
+.publication-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.publication-body img {
+}
+
+.results-carousel {
+  overflow: hidden;
+}
+
+.results-carousel .item {
+  margin: 5px;
+  overflow: hidden;
+  border: 1px solid #bbb;
+  border-radius: 10px;
+  padding: 0;
+  font-size: 0;
+}
+
+.results-carousel video {
+  margin: 0;
+}
+
+
+.interpolation-panel {
+  background: #f5f5f5;
+  border-radius: 10px;
+}
+
+.interpolation-panel .interpolation-image {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.interpolation-video-column {
+}
+
+.interpolation-panel .slider {
+  margin: 0 !important;
+}
+
+.interpolation-panel .slider {
+  margin: 0 !important;
+}
+
+#interpolation-image-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#interpolation-image-wrapper img {
+  border-radius: 5px;
+}
+
+.crop_grey_line {
+  outline: 10px solid #fff;
+  outline-offset: -8px;
+  margin-bottom: 10px;
+}
+
+.center-container {
+  text-align: center;
+}
+
+.vigil3d-viewer-toolbar .select.is-fullwidth select {
+  width: 100%;
+}
+
+.vigil3d-viewer-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  max-height: 72vh;
+  margin-top: 0.75rem;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid #e0e0e0;
+  background: #f4f4f5;
+  /* background: #000000; */
+}
+
+.vigil3d-viewer-canvas-wrap {
+  width: 100%;
+  height: 100%;
+}
+
+.vigil3d-viewer-canvas-wrap canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.vigil3d-viewer-loading {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(244, 244, 245, 0.85);
+  font-size: 0.95rem;
+  color: #363636;
+  z-index: 2;
+  /* Never capture clicks/wheel; canvas must receive events for OrbitControls. */
+  pointer-events: none;
+}
+
+/* Ensure hidden state fully removes the overlay from layout and painting.
+   Author `display: flex` above can otherwise override the UA [hidden] rule in some cascades. */
+.vigil3d-viewer-loading[hidden] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  background: transparent !important;
+}
+
+.vigil3d-viewer-legend {
+  font-size: 0.8rem;
+  color: #7a7a7a;
+}
+
+.vigil3d-desc-row {
+  display: flex;
+  align-items: stretch;
+  gap: 0.75rem;
+}
+
+.vigil3d-desc-body {
+  flex: 1;
+  min-height: 4.5rem;
+}
+
+.vigil3d-desc-text {
+  margin: 0 !important;
+}
+
+.vigil3d-nav-btn {
+  align-self: center;
+}
+
+.vigil3d-pred-layout {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.vigil3d-pred-main {
+  flex: 1;
+  min-width: 0;
+}
+
+.vigil3d-pred-sidebar {
+  width: 190px;
+  flex-shrink: 0;
+}
+
+.vigil3d-pred-sidebar .vigil3d-model-option {
+  justify-content: flex-start;
+  margin-bottom: 0.5rem;
+}
+
+.vigil3d-pred-sidebar .vigil3d-model-option.is-active {
+  background-color: #48c774;
+  border-color: #3ec46d;
+  color: #ffffff;
+}
+
+.vigil3d-pred-legend {
+  font-size: 0.8rem;
+  color: #7a7a7a;
+}
+
+@media screen and (max-width: 900px) {
+  .vigil3d-pred-layout {
+    flex-direction: column;
+  }
+
+  .vigil3d-pred-sidebar {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.5rem;
+  }
+
+  .vigil3d-pred-sidebar .vigil3d-model-option {
+    margin-bottom: 0;
+  }
+}
